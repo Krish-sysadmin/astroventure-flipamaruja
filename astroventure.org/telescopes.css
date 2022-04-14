@@ -1,0 +1,1312 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+    overflow: none;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-tele{
+    background-image: url("hubble-telescope-1347645_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+@media  screen and (max-width : 425px) {
+    .bg-tele{
+        background-image: url("hubble-telescope-1347645_1920.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    
+    }
+    
+}
+
+/* Body section (end) */
+
+
+
+/* Tele one (start) */
+
+
+.tele-one-p{
+    font-size: 28px;
+    line-height: 40px;
+    padding-top: 65px;
+    line-height: 50px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.T-start{
+    color: #14274e;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.tele{
+    
+        font-size: 18px;
+        color: white;
+        margin-left: 8px;
+        width: 358px;
+        line-height: 33px;
+        letter-spacing: 3px;
+    
+}
+
+@media  screen and (max-width : 1043px) {
+    .tele {
+        font-size: 18px;
+        color: white;
+        margin-left: 45px;
+        width: 347px;
+        line-height: 33px;
+        letter-spacing: 3px;
+    }
+}
+
+@media  screen and (max-width : 1036px) {
+    
+    .tele-one-p {
+        margin-left: 39px;
+    }
+
+}
+
+@media  screen and (max-width : 991px) {
+    .tele {
+        font-size: 18px;
+        color: white;
+        margin-left: 0px;
+        width: 347px;
+        line-height: 33px;
+        letter-spacing: 3px;
+    }
+}
+
+@media  screen and (max-width : 835px) {
+    .tele {
+        font-size: 18px;
+        color: white;
+        margin-left: 49px;
+        width: 347px;
+        line-height: 33px;
+        letter-spacing: 3px;
+    }
+}
+
+@media  screen and (max-width : 616px) {
+    .tele {
+        font-size: 18px;
+        color: white;
+        margin-left: 39px;
+        width: 347px;
+        line-height: 33px;
+        letter-spacing: 3px;
+    }
+}
+
+@media  screen and (max-width : 549px) {
+    .tele {
+        font-size: 18px;
+        color: white;
+        margin-left: 21px;
+        width: 347px;
+        line-height: 33px;
+        letter-spacing: 3px;
+    }
+
+   
+}
+
+@media  screen and (max-width : 813px) {
+    .tele-one-p {
+        font-size: 28px;
+        line-height: 50px;
+        width: 623px;
+        margin-left: 40px;
+        padding-top: 65px;
+    }
+}
+
+
+@media  screen and (max-width : 700px) {
+    
+    .tele-one-p {
+        font-size: 25px;
+        line-height: 50px;
+        width: 555px;
+        margin-left: 40px;
+        padding-top: 65px;
+    }
+
+}
+
+@media  screen and (max-width : 645px) {
+    .tele-one-p {
+        font-size: 25px;
+        line-height: 50px;
+        width: 479px;
+        margin-left: 40px;
+        padding-top: 65px;
+    }
+}
+
+
+
+@media  screen and (max-width : 579px) {
+    
+    .tele-one-p {
+        font-size: 20px;
+        line-height: 43px;
+        width: 427px;
+        margin-left: 40px;
+        padding-top: 65px;
+    }
+
+}
+
+@media  screen and (max-width : 549px) {
+    .tele-one-p {
+        font-size: 20px;
+        line-height: 43px;
+        width: 427px;
+        margin-left: 17px;
+        padding-top: 65px;
+    }
+}
+
+@media  screen and (max-width : 490px) {
+    
+    .tele-head {
+        padding-bottom: 0px;
+        padding-top: 190px;
+        font-size: 58px;
+        width: 445px;
+        color: white;
+        font-weight: 600;
+        margin-left: 17px;
+        line-height: 70px;
+    }
+
+    .tele-one-p {
+        font-size: 19px;
+        line-height: 42px;
+        width: 367px;
+        margin-left: 17px;
+        padding-top: 65px;
+    }
+
+}
+
+@media  screen and (max-width : 477px) {
+    .tele-head {
+        padding-bottom: 0px;
+        padding-top: 190px;
+        font-size: 58px;
+        width: 352px;
+        color: white;
+        font-weight: 600;
+        margin-left: 17px;
+        line-height: 70px;
+    }
+}
+
+@media  screen and (max-width : 437px) {
+    
+    .tele-head {
+        padding-bottom: 0px;
+        padding-top: 190px;
+        font-size: 51px;
+        width: 308px;
+        color: white;
+        font-weight: 600;
+        margin-left: 17px;
+        line-height: 64px;
+        text-align: left;
+    }
+
+    .tele {
+        font-size: 16px;
+        color: white;
+        margin-left: 21px;
+        width: 319px;
+        line-height: 28px;
+        letter-spacing: 3px;
+        text-align: left;
+    }
+
+    .tele-one-p {
+        font-size: 18px;
+        line-height: 42px;
+        width: 339px;
+        margin-left: 17px;
+        padding-top: 65px;
+    }
+
+}
+
+@media  screen and (max-width : 400px) {
+    .brand-logo {
+        width: 90px;
+        margin: auto;
+        margin-left: 15px;
+        margin-top: 13px;
+        display: block;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid transparent;
+        border-radius: 4px;
+    }
+
+    .tele {
+        font-size: 13px;
+        color: white;
+        margin-left: 21px;
+        width: 277px;
+        line-height: 23px;
+        letter-spacing: 3px;
+        text-align: left;
+    }
+
+    .tele-head {
+        padding-bottom: 0px;
+        padding-top: 190px;
+        font-size: 48px;
+        width: 290px;
+        color: white;
+        font-weight: 600;
+        margin-left: 17px;
+        line-height: 64px;
+        text-align: left;
+    }
+
+    .tele-one-p {
+        font-size: 15px;
+        line-height: 38px;
+        width: 283px;
+        margin-left: 17px;
+        padding-top: 65px;
+    }
+}
+
+
+@media  screen and (max-width : 346px) {
+     
+    .tele-head {
+        padding-bottom: 0px;
+        padding-top: 190px;
+        font-size: 36px;
+        width: 234px;
+        color: white;
+        font-weight: 600;
+        margin-left: 0px;
+        line-height: 49px;
+        text-align: center;
+        margin: auto;
+    }
+
+    
+    
+
+    .tele {
+        font-size: 13px;
+        color: white;
+        margin-left: 0px;
+        width: 229px;
+        line-height: 23px;
+        letter-spacing: 3px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .tele-one-p {
+        font-size: 15px;
+        line-height: 38px;
+        width: 252px;
+        padding-top: 65px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+}
+
+/* Tele one (end) */
+
+
+/* Tele two (start) */
+
+.tele-two-p{
+    font-size: 28px;
+line-height: 40px;
+padding-top: 65px;
+line-height: 50px;
+
+}
+
+@media  screen and (max-width : 813px) {
+    .tele-two-p {
+        font-size: 28px;
+        line-height: 40px;
+        padding-top: 65px;
+        margin-left: 40px;
+        width: 602px;
+        line-height: 50px;
+    }
+}
+
+
+@media  screen and (max-width : 700px) {
+    
+    .tele-two-p {
+        font-size: 25px;
+        line-height: 40px;
+        padding-top: 65px;
+        margin-left: 40px;
+        width: 537px;
+        line-height: 50px;
+    }
+
+}
+
+@media  screen and (max-width : 645px) {
+    .tele-two-p {
+        font-size: 25px;
+        line-height: 40px;
+        padding-top: 65px;
+        margin-left: 40px;
+        width: 475px;
+        line-height: 50px;
+    }
+}
+
+@media  screen and (max-width : 579px) {
+    .tele-two-p {
+        font-size: 20px;
+        padding-top: 65px;
+        margin-left: 40px;
+        width: 434px;
+        line-height: 43px;
+    }
+}
+
+@media  screen and (max-width : 549px) {
+    
+    .tele-two-p {
+        font-size: 20px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 434px;
+        line-height: 43px;
+    }
+}
+
+@media  screen and (max-width : 490px) {
+    
+  .tele-two-p{
+    font-size: 19px;
+    line-height: 42px;
+    width: 367px;
+    margin-left: 17px;
+    padding-top: 65px;
+  }
+
+}
+
+@media screen and (max-width : 437px) {
+     
+    .tele-two-p {
+        font-size: 18px;
+        line-height: 42px;
+        width: 348px;
+        margin-left: 17px;
+        padding-top: 65px;
+        text-align: left;
+    }
+
+}
+
+@media  screen and (max-width : 400px) {
+    .tele-two-p {
+        font-size: 15px;
+        line-height: 38px;
+        width: 290px;
+        margin-left: 17px;
+        padding-top: 65px;
+    }
+}
+
+@media  screen and (max-width : 346px) {
+    .tele-two-p {
+        font-size: 15px;
+        line-height: 38px;
+        width: 257px;
+        margin-left: 10px;
+        text-align: left;
+        padding-top: 65px;
+    }
+}
+
+.notes-book{
+   padding-top: 60px;
+}
+
+.notes-head{
+    color: #14274e;
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 15px;
+
+}
+
+.notes-links {
+    font-size: 16px;
+    color: #E50168;
+    font-weight: 900;
+    margin-left: 57px;
+    text-decoration: none;
+}
+
+.notes-links::before{
+    content: '';
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f35d";
+   color: #14274e;
+   margin-right: 23px;
+}
+
+.notes-links:hover{
+    font-size: 16px;
+    color: #E50168;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.notes-head::before{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f249";
+  color: #E50168;
+  margin-left: 0px;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.notes-pad{
+    margin-bottom: 10px;
+}
+
+.books-head{
+    color: #14274e;
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+.books-head::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f02d";
+    color: #E50168;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 40px;
+  }
+
+  @media  screen and (max-width : 813px) {
+    .notes-book {
+        padding-top: 60px;
+        margin-left: 33px;
+    }
+  }
+
+  @media  screen and (max-width : 549px) {
+    .notes-book {
+        padding-top: 60px;
+        margin-left: 17px;
+    }
+
+    .book-l {
+        margin-left: 95px;
+    }
+
+    .notes-pad {
+        margin-bottom: 10px;
+        width: 329px;
+    }
+  }
+
+  @media  screen and (max-width : 549px) {
+      .notes-2{
+        margin-left: 91px;
+      }
+  }
+
+
+  @media  screen and (max-width : 405px) {
+    .notes-links {
+        font-size: 16px;
+        color: #E50168;
+        font-weight: 900;
+        margin-left: 57px;
+        text-decoration: none;
+    }
+
+    .notes-2{
+        margin-left: 95px;
+    }
+  }
+
+  @media  screen and (max-width : 400px) {
+    
+    .notes-pad {
+        margin-bottom: 10px;
+        width: 223px;
+    }
+
+    .notes-2 {
+        margin-left: 57px;
+    }
+  }
+
+  @media  screen and (max-width : 373px) {
+    .notes-head {
+        color: #14274e;
+        font-weight: 900;
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+
+    .notes-head::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f249";
+        color: #E50168;
+        margin-left: 0px;
+        margin-right: 20px;
+        font-size: 33px;
+    }
+  }
+
+  @media  screen and (max-width : 364px) {
+    .notes-pad {
+        margin-bottom: 10px;
+        width: 268px;
+    }
+  }
+
+  @media  screen and (max-width : 352px) {
+    .notes-head {
+        color: #14274e;
+        font-weight: 900;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .books-head{
+        color: #14274e;
+        font-weight: 900;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .notes-2{
+        margin-left: 58px;
+    }
+  }
+
+  @media  screen and (max-width : 336px) {
+   
+
+    .notes-links {
+        font-size: 16px;
+        color: #E50168;
+        font-weight: 900;
+        margin-left: 3px;
+        text-decoration: none;
+    }
+
+    .notes-2 {
+        margin-left: 56px;
+    }
+
+    .notes-pad {
+        margin-bottom: 10px;
+        width: 217px;
+    }
+
+    .book-l {
+        margin-left: 42px;
+    }
+  }
+
+/* Tele two (end) */
+
+
+/* Tele 2nd (start) */
+
+
+.tele-2nd-p{
+    font-size: 28px;
+    padding-top: 65px;
+    line-height: 50px;
+}
+
+
+
+@media  screen and (max-width : 991px) {
+    .tele-2nd-p {
+        font-size: 28px;
+        width: 669px;
+        padding-top: 65px;
+        line-height: 50px;
+    }
+}
+
+
+@media  screen and (max-width : 813px) {
+    .tele-2nd-p {
+        font-size: 28px;
+        width: 594px;
+        padding-top: 65px;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+}
+
+@media  screen and (max-width : 700px) {
+    .tele-2nd-p {
+        font-size: 25px;
+        width: 531px;
+        padding-top: 65px;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+}
+
+@media  screen and (max-width : 635px) {
+    .tele-2nd-p {
+        font-size: 25px;
+        width: 486px;
+        padding-top: 65px;
+        margin-left: 40px;
+        line-height: 50px;
+    }
+}
+
+@media  screen and (max-width : 575px) {
+    .tele-2nd-p {
+        font-size: 20px;
+        width: 424px;
+        padding-top: 65px;
+        margin-left: 40px;
+        line-height: 43px;
+    }
+}
+
+@media  screen and (max-width : 549px) {
+    .tele-2nd-p {
+        font-size: 20px;
+        width: 424px;
+        padding-top: 65px;
+        margin-left: 17px;
+        line-height: 43px;
+    }
+}
+
+@media  screen and (max-width : 490px) {
+    .tele-2nd-p {
+        font-size: 19px;
+        width: 344px;
+        padding-top: 65px;
+        margin-left: 17px;
+        line-height: 43px;
+    }
+}
+
+@media  screen and (max-width : 397px) {
+    .tele-2nd-p {
+        font-size: 15px;
+        width: 273px;
+        padding-top: 65px;
+        margin-left: 17px;
+        line-height: 38px;
+    }
+}
+
+
+@media  screen and (max-width : 346px) {
+    .tele-2nd-p {
+        font-size: 15px;
+        width: 267px;
+        padding-top: 65px;
+        margin-left: 0px;
+        text-align: center;
+        margin: auto;
+        line-height: 38px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Tele 2nd (end) */
+
+
+/* Tele 3rd (start) */
+
+.tele-3rd-mini-head {
+    font-weight: 900;
+    color: #14274e;
+    font-size: 26px;
+    margin-top: 71px;
+}
+
+.tele-3rd-mini-title{
+    font-weight: 900;
+    color: #394867;
+    padding-top: 10px;
+}
+
+.tele-3rd-p {
+    font-size: 28px;
+    padding-top: 3px;
+    line-height: 50px;
+}
+
+.tele-3rd-mini-head::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+    color: #E50168;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 33px;
+}
+
+.tele-3rd-p-link{
+    color: #E50168;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+
+}
+
+.tele-3rd-p-link:hover{
+    color: #14274e;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.tele-3rd-p-link:focus{
+    color: #14274e;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+@media  screen and (max-width : 1036px) {
+    .tele-3rd-p {
+        font-size: 27px;
+        padding-top: 3px;
+        width: 573px;
+        line-height: 50px;
+    }
+}
+
+@media  screen and (max-width : 436px) {
+    .tele-3rd-p{
+        padding-top: 90px;
+        text-align: left;
+
+    }
+}
+
+
+
+@media  screen and (max-width : 813px) {
+    .tele-3rd-p {
+        font-size: 23px;
+        margin-left: 40px;
+        padding-top: 3px;
+        width: 410px;
+        line-height: 50px;
+    }
+
+    .tele-3rd-mini-head {
+        font-weight: 900;
+        color: #14274e;
+        font-size: 26px;
+        margin-left: 44px;
+        margin-top: 71px;
+    }
+
+    .tele-3rd-mini-title {
+        font-weight: 900;
+        color: #394867;
+        margin-left: 47px;
+        padding-top: 10px;
+    }
+}
+
+
+@media  screen and (max-width : 549px) {
+    .tele-3rd-mini-head {
+        font-weight: 900;
+        color: #14274e;
+        font-size: 26px;
+        margin-left: 17px;
+        margin-top: 71px;
+    }
+
+    .tele-3rd-mini-title {
+        font-weight: 900;
+        color: #394867;
+        margin-left: 17px;
+        padding-top: 10px;
+    }
+
+    .tele-3rd-p {
+        font-size: 20px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 362px;
+        line-height: 43px;
+    }
+}
+
+
+@media  screen and (max-width : 428px){
+    .tele-3rd-p {
+        font-size: 20px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 303px;
+        line-height: 43px;
+    }
+}
+
+@media  screen and (max-width : 370px) {
+    .tele-3rd-p {
+        font-size: 15px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 256px;
+        line-height: 36px;
+    }
+}
+
+@media  screen and (max-width : 346px) {
+    .tele-3rd-p {
+        font-size: 15px;
+        padding-top: 65px;
+        margin-left: 11px;
+        width: 256px;
+        line-height: 36px;
+    }
+}
+
+.tele-3rd-read {
+    color: #14274e;
+    font-size: 29px;
+    padding-top: 31px;
+    font-weight: 700;
+    padding-bottom: 13px;
+}
+
+.tele-3rd-read::before{
+    content: "\f5da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #E50168;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+@media  screen and (max-width : 813px) {
+    .tele-3rd-read {
+        color: #14274e;
+        font-size: 29px;
+        padding-top: 31px;
+        margin-left: 44px;
+        font-weight: 700;
+        padding-bottom: 13px;
+    }
+}
+
+
+/* Tele 3rd (end) */
+
+
+
+
+@media  screen and (max-width : 600px) {
+    
+    .add-3{
+        width: 400px;
+    }
+
+    .add-3-book{
+        margin-left: 93px;
+    }
+
+}
+
+@media  screen and (max-width : 439px) {
+    
+    .add-3 {
+        width: 365px;
+    }
+
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .notes-links {
+        font-size: 14px;
+        color: #E50168;
+        font-weight: 900;
+        margin-left: 57px;
+        text-decoration: none;
+    }
+
+
+    .add-3 {
+        width: 330px;
+    }
+
+    .add-2{
+        margin-bottom: 10px;
+    width: 224px;
+    }
+
+ 
+
+    .tele-3rd-p {
+        font-size: 15px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 270px;
+        line-height: 38px;
+    }
+
+    .hmm-2{
+      
+        font-size: 15px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 251px;
+        line-height: 38px;
+        
+    }
+
+    .tele-3rd-read {
+        color: #14274e;
+        font-size: 29px;
+        padding-top: 31px;
+        margin-left: 16px;
+        font-weight: 700;
+        padding-bottom: 13px;
+    }
+
+    .add-3 {
+        width: 303px;
+    }
+
+    .add-3-book {
+        margin-left: 62px;
+    }
+
+    .book-l {
+        margin-left: 57px;
+    }
+
+    .notes-links {
+        font-size: 14px;
+        color: #E50168;
+        font-weight: 900;
+        margin-left: 23px;
+        text-decoration: none;
+    }
+}
+
+@media  screen and (max-width : 340px) {
+    
+    .notes-links {
+        font-size: 13px;
+        color: #E50168;
+        font-weight: 900;
+        margin-left: 23px;
+        text-decoration: none;
+    }
+
+    .add-3 {
+        width: 279px;
+    }
+
+    .tele-3rd-p {
+        font-size: 15px;
+        padding-top: 65px;
+        margin-left: 17px;
+        width: 256px;
+        line-height: 38px;
+    }
+
+    .hmm-2{
+        font-size: 15px;
+    padding-top: 65px;
+    margin-left: 17px;
+    width: 196px;
+    line-height: 38px;
+    }
+
+}
+
+
+
+.tele-4th-min{
+    padding-bottom: 50px;
+}
+
+.fth-main-link{
+    margin-bottom: 10px;
+    width: 346px;
+}
+
+.fth-main-link-2{
+    width: 321px;
+}
+
+@media  screen and (max-width : 369px) {
+    .fth-main-link {
+        margin-bottom: 10px;
+        width: 283px;
+    }
+    
+}
+
+
+.tele-p-list{
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+
+@media  screen and (max-width : 436px) {
+    .tele-p-list {
+        margin-top: -60px;
+        margin-left: 20px;
+        font-weight: 700;
+        text-align: left;
+    }
+}
+
+@media  screen and (max-width : 360px) {
+    .tele-p-list {
+        margin-top: -60px;
+        width: 112px;
+        margin-left: 20px;
+        font-weight: 700;
+        text-align: left;
+    }
+}
+
+@media  screen and (max-width : 341px) {
+    .fth-main-link-2 {
+        width: 258px;
+    }
+}
+
+
+@media screen and (max-width  : 648px){
+    .add-3-l{
+        width: 347px;
+    }
+
+    .t-4-l-i{
+        margin-left: 90px;
+    }
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .t-4-l-i {
+        margin-left: 55px;
+    }
+
+}
+
+@media  screen and (max-width : 380px) {
+    .add-3-l {
+        width: 282px;
+    }
+}
+
+
+.fth-main-link-3 {
+    width: 531px;
+}
+
+.n-l-2-1{
+    margin-left: 94px;
+}
+
+@media screen and (max-width : 566px){
+    .nl-2{
+      font-size: 14px;
+    }
+
+    .fth-main-link-3 {
+        width: 301px;
+        line-height: 23px;
+    }
+
+    .n-l-2-1 {
+        margin-left: 91px;
+    }
+}
+
+@media  screen and (max-width : 400px) {
+    .n-l-2-1 {
+        margin-left: 59px;
+    }
+}
+
+@media  screen and (max-width : 343px) {
+    .fth-main-link-3 {
+        width: 271px;
+        line-height: 23px;
+    }
+}
+
+
+@media  screen and (max-width : 360px) {
+    
+    .tele-p-list {
+        width: 145px;
+    }
+
+}
+
+
+.pod-hmm{
+    margin-top: 0px;
+}
+
+@media  screen and (max-width : 549px) {
+
+    .lol-lol{
+        margin-bottom: 10px;
+        width: 347px;
+    }
+    
+}
+
+@media  screen and (max-width : 395px) {
+    .lol-lol {
+        margin-bottom: 10px;
+        width: 281px;
+    }
+}
+
+@media  screen and (max-width : 340px) {
+    
+    .lol-lol {
+        margin-bottom: 10px;
+        width: 264px;
+    }
+
+}
+
+
+.tele-7th{
+    padding-bottom: 200px;
+}
+
+
+
+.member-social-footer{
+    transition: 500ms ease-in-out;
+}
+
+.member-social-footer:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #E50168;
+}
+
+
+@media  screen and (max-width : 545px) {
+    
+    .member-social-footer:hover {
+        margin-left: 45px;
+        margin-right: 45px;
+        text-decoration: none;
+        color: #E50168;
+    }
+
+}
+
+@media  screen and (max-width : 487px) {
+    
+    .member-social-footer:hover {
+        margin-left: 35px;
+        margin-right: 35px;
+        text-decoration: none;
+        color: #E50168;
+    }
+
+}
+
+
+@media  screen and (max-width : 372px) {
+    
+    .member-social-footer:hover {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #E50168;
+    }
+
+}

@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* dgao head section (start) */
+
+.dgao-head{
+    font-size: 52px;
+    line-height: 70px;
+}
+
+
+
+@media  screen and (max-width : 1036px) {
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 39px;
+    }
+    
+    .dgao-head {
+        font-size: 52px;
+        line-height: 70px;
+        margin-left: 39px;
+    }
+}
+
+@media  screen and (max-width : 991px) {
+    .dgao-head {
+        font-size: 52px;
+        line-height: 75px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: -7px;
+    }
+
+    .dgao-head {
+        margin-left: -7px;
+    }
+
+}
+
+
+@media  screen and (max-width : 835px) {
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 47px;
+    }
+
+    .dgao-head {
+        margin-left: 47px;
+    }
+}
+
+@media  screen and (max-width : 720px) {
+    .dgao-head {
+        font-size: 42px;
+        line-height: 62px;
+    }
+}
+
+@media  screen and (max-width : 600px) {
+    
+    .dgao-head {
+        font-size: 32px;
+        line-height: 47px;
+    }
+
+}
+
+@media  screen and (max-width : 549px) {
+    
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 17px;
+    }
+
+    .dgao-head {
+        margin-left: 17px;
+    }
+
+}
+
+@media  screen and (max-width : 551px) {
+    
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 37px;
+    }
+
+    .dgao-head {
+        margin-left: 37px;
+    }
+
+
+
+}
+
+
+@media  screen and (max-width : 549px) {
+    .dgao-head {
+        margin-left: 17px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 17px;
+    }
+}
+
+@media  screen and (max-width : 436px) {
+    
+    .dgao-head {
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+}
+
+@media  screen and (max-width : 386px) {
+    .dgao-head {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+
+@media  screen and (max-width : 360px) {
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 11px;
+    }
+
+    .dgao-head {
+        margin-left: 10px;
+    }
+}
+
+@media  screen and (max-width : 340px) {
+    
+    .dgao-head {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+}
+
+/* dgao head section (end) */
+
+
+/* dgao p section (start) */
+
+.dgao-image{
+    border-radius: 90px;
+    box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+}
+
+
+
+.dgao-image-2{
+    width: 550px;
+    margin-top: 110px;
+}
+
+.dgao-image-3{
+    width: 550px;
+    margin-top: 11px;
+}
+
+
+@media  screen and (max-width : 436px) {
+    
+    
+.dgao-p{
+    font-size: 15px;
+width: 286px;
+margin-left: 17px;
+margin-top: 62px;
+padding-top: 0px;
+line-height: 33px;
+}
+
+
+
+
+}
+
+
+@media  screen and (max-width : 366px) {
+    
+    .dgao-p {
+        font-size: 15px;
+        width: 286px;
+        margin-left: 10px;
+    }
+
+}
+
+@media  screen and (max-width : 362px) {
+    .dgao-p {
+        text-align: left;
+    }
+}
+
+
+@media  screen and (max-width : 340px) {
+    .dgao-p {
+        font-size: 15px;
+        width: 232px;
+        margin-left: 10px;
+    }
+}
+
+
+@media  screen and (max-width : 1036px) {
+    
+    .dgao-image{
+        margin-left: 42px;
+    }
+
+
+
+
+}
+
+@media  screen and (max-width : 991px) {
+    .dgao-image {
+        margin-left: -7px;
+    }
+}
+
+@media  screen and (max-width : 835px) {
+    .dgao-image {
+        margin-left: 47px;
+    }
+
+  
+}
+
+@media  screen and (max-width : 670px) {
+   .dgao-image{
+    width: 358px;
+   }
+}
+
+@media  screen and (max-width : 551px) {
+    
+    .dgao-image {
+        margin-left: 37px;
+    }
+
+}
+
+@media  screen and (max-width : 549px) {
+    
+    .dgao-image {
+        margin-left: 17px;
+    }
+
+  
+
+}
+
+@media  screen and (max-width : 460px) {
+    
+    .dgao-image {
+        width: 300px;
+    }
+
+}
+
+@media  screen and (max-width : 390px) {
+    .dgao-image {
+        width: 251px;
+    }
+}
+
+
+@media  screen and (max-width : 366px) {
+    
+    .dgao-image {
+        margin-left: 10px;
+    }
+
+}
+
+@media  screen and (max-width : 352px) {
+    .dgao-image {
+        width: 224px;
+    }
+}
+
+[data-theme="dark"] #dgao-p-dark{
+    color: #BC6FF1;
+}
+
+[data-theme="dark"] .dgao-image{
+    box-shadow: 1px 9px 32px 10px rgb(137 44 220 / 51%);
+}
+
+/* dgao p section (end) */

@@ -1,0 +1,181 @@
+.thanks-pad{
+    padding-top: 120px;
+    padding-bottom: 216px;
+}
+
+.soon-header {
+    text-align: center;
+    font-size: 87px;
+    padding-top: 47px;
+    font-weight: 900;
+    color: #14274e;
+    padding-bottom: 59px;
+}
+
+.thanks-btn{
+    background-color: #E50168;
+    padding: 20px 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+    display: block;
+
+}
+
+.member-social-footer {
+   
+    transition: 500ms ease-in-out;
+
+}
+
+.member-social-footer:hover {
+    color: #E50168;
+}
+
+
+
+.thanks-btn:hover{
+    background-color: #394867;
+    color: white;
+}
+
+@media  screen and (max-width : 1020px) {
+    
+
+
+    .thanks-soon {
+        padding-bottom: 40px;
+    }
+
+    .astro-articles-img {
+        width: 253px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+
+    .thanks-soon{
+        padding-bottom: 40px;
+    font-size: 69px;
+    }
+}
+
+@media  screen and (max-width : 992px) {
+    .thanks-soon {
+        margin: auto;
+        line-height: 77px;
+        width: 471px;
+        padding-bottom: 40px;
+        font-size: 69px;
+    }
+}
+
+@media screen and (max-width : 517px) {
+    
+    .thanks-soon {
+        margin: auto;
+        line-height: 68px;
+        width: 471px;
+        padding-top: 55px;
+        padding-bottom: 57px;
+        font-size: 58px;
+    }
+
+    .astro-articles-img {
+        width: 203px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+
+
+}
+
+
+@media  screen and (max-width : 509px) {
+    .thanks-soon {
+        margin: auto;
+        line-height: 68px;
+        width: 378px;
+        padding-top: 55px;
+        padding-bottom: 57px;
+        font-size: 58px;
+    }
+}
+
+@media  screen and (max-width : 420px) {
+ 
+    
+    .astro-articles-img {
+        width: 175px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+
+    .thanks-btn {
+        background-color: #E50168;
+        padding: 19px 33px;
+        font-size: 13px;
+        color: white;
+        font-weight: 900;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        cursor: pointer;
+        border: none;
+        margin: auto;
+        display: block;
+    }
+
+    .thanks-soon {
+        margin: auto;
+        line-height: 60px;
+        width: 322px;
+        padding-top: 55px;
+        padding-bottom: 36px;
+        font-size: 49px;
+    }
+}
+
+@media  screen and (max-width : 362px) {
+
+
+    .thanks-btn {
+        background-color: #E50168;
+        padding: 15px 24px;
+        font-size: 12px;
+        color: white;
+        font-weight: 900;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        cursor: pointer;
+        border: none;
+        margin: auto;
+        display: block;
+    }
+
+    .thanks-soon {
+        margin: auto;
+        line-height: 48px;
+        width: 281px;
+        padding-top: 39px;
+        padding-bottom: 36px;
+        font-size: 43px;
+    
+}
+}
+
+@media  screen and (max-width : 332px) {
+    .member-social-footer {
+        margin-left: 25px;
+        margin-right: 25px;
+        text-decoration: none;
+        color: #14274e;
+        transition: 500ms ease-in-out;
+    }
+}

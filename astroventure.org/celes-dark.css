@@ -1,0 +1,87 @@
+.darkmode--activated .p-hero-head{
+
+    color: #892CDC;
+    
+
+}
+
+.darkmode--activated .p-hero-title {
+    color: #BC6FF1;
+ 
+}
+
+.darkmode--activated .article-profile-url {
+    color: #BC6FF1; 
+}
+
+.darkmode--activated .article-profile-url:hover {
+    color: #9ba4b4; 
+}
+
+.darkmode--activated .Cele-last {
+    color: #BC6FF1;
+}
+
+.darkmode--activated .Cele-last:hover {
+    color: #9ba4b4;
+}
+
+.darkmode--activated .mod-url {
+    color: #892CDC;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .mod-url:hover {
+    color: #9ba4b4;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+
+
+.darkmode--activated  .night-p-3 {
+    font-size: 16px;
+    margin-top: 42px;
+    line-height: 30px;
+    color: white;
+}
+
+.darkmode--activated .night-p-3-head {
+    font-size: 40px;
+    color: #892CDC;
+    font-weight: 700;
+}
+
+.darkmode--activated .articles-nav-head {
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: #9ba4b4;
+    font-weight: 900;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .night-list {
+    color: #BC6FF1;
+}
+
+.darkmode-toggle {
+    background: #100f2c;
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    border-radius: 50%;
+    border: none;
+    right: unset;
+    bottom: 64px;
+    left: 32px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}

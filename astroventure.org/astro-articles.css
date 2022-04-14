@@ -1,0 +1,366 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+
+}
+
+/* article nav (start) */
+
+
+.articles-nav{
+    text-align: center;
+}
+
+
+.articles-nav {
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: transparent;
+    position: fixed;
+    backdrop-filter: blur(17px);
+    left: 0px;
+    z-index: 2;
+    right: 0px;
+}
+
+.articles-nav-title{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: #dcdfe4;
+    font-weight: 700;
+}
+
+.articles-nav-title:hover{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: #dcdfe4;
+}
+
+.articles-nav-title:focus{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: #dcdfe4;
+}
+
+
+.articles-nav-title:hover{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.articles-head-real {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 127px;
+    color: white;
+    padding-bottom: 86px;
+    font-weight: 900;
+}
+
+.articles-head{
+    background-image: url("hero.png");
+    background-position: center;
+    background-attachment: fixed;
+    isolation: isolate;
+
+}
+
+.articles-head-real{
+    margin: 0px;
+   
+}
+
+.soon-header {
+    text-align: center;
+    font-size: 87px;
+    padding-top: 100px;
+    font-weight: 900;
+    color: #14274e;
+    padding-bottom: 200px;
+}
+
+.astro-articles-img {
+    width: 400px;
+    margin: auto;
+    display: block;
+    padding-top: 158px;
+}
+
+@media  screen and (max-width : 992px) {
+    .soon-header {
+        text-align: center;
+        font-size: 80px;
+        padding-top: 100px;
+        font-weight: 900;
+        color: #14274e;
+        padding-bottom: 200px;
+    }
+
+
+}
+
+@media  screen and (max-width : 571px) {
+    .soon-header {
+        text-align: center;
+        font-size: 64px;
+        line-height: 81px;
+        padding-top: 100px;
+        font-weight: 900;
+        color: #14274e;
+        padding-bottom: 200px;
+    }
+}
+
+@media  screen and (max-width : 502px) {
+    .astro-articles-img {
+        width: 342px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+}
+
+@media  screen and (max-width : 435px) {
+    
+    .articles-head-real {
+        font-size: 78px;
+        text-align: center;
+        padding-top: 127px;
+        color: white;
+        padding-bottom: 39px;
+        font-weight: 900;
+    }
+
+    .soon-header {
+        text-align: center;
+        font-size: 55px;
+        line-height: 73px;
+        padding-top: 100px;
+        font-weight: 900;
+        color: #14274e;
+        padding-bottom: 200px;
+    }
+
+    .astro-articles-img {
+        width: 322px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+
+}
+
+@media screen and (max-width : 396px) {
+    .soon-header {
+        text-align: center;
+        font-size: 50px;
+        line-height: 66px;
+        padding-top: 100px;
+        width: 313px;
+        font-weight: 900;
+        margin: auto;
+        color: #14274e;
+        padding-bottom: 200px;
+    }
+
+    .astro-articles-img {
+        width: 277px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+}
+
+@media  screen and (max-width : 358px) {
+    .articles-nav-title {
+        font-size: 21px;
+        margin: 0px;
+        text-decoration: none;
+        color: #dcdfe4;
+    }
+
+    .articles-head-real {
+        font-size: 69px;
+        text-align: center;
+        padding-top: 127px;
+        color: white;
+        padding-bottom: 39px;
+        font-weight: 900;
+    }
+
+    .astro-articles-img {
+        width: 259px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+
+    .soon-header {
+        text-align: center;
+        font-size: 45px;
+        line-height: 58px;
+        padding-top: 100px;
+        width: 280px;
+        font-weight: 900;
+        margin: auto;
+        color: #14274e;
+        padding-bottom: 200px;
+    }
+}
+
+@media  screen and (max-width : 328px) {
+    .soon-header {
+        text-align: center;
+        font-size: 39px;
+        line-height: 58px;
+        padding-top: 88px;
+        width: 249px;
+        font-weight: 900;
+        margin: auto;
+        color: #14274e;
+        padding-bottom: 200px;
+    }
+
+    .astro-articles-img {
+        width: 221px;
+        margin: auto;
+        display: block;
+        padding-top: 158px;
+    }
+
+    
+}
+
+.articles-post{
+    width: 300px;
+    margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 29px;
+ 
+}
+
+.f-star-img{
+    width: 300px;
+    border-radius: 27px;
+}
+
+.articles-post-head {
+    color: #14274e;
+    line-height: 33px;
+    width: 189px;
+    font-weight: 700;
+    margin-left: 26px;
+    padding-top: 20px;
+}
+
+.a-p-h-2{
+    width: 228px;
+}
+
+
+
+.articles-post-title{
+    margin-left: 26px;
+    padding-top: 10px;
+    
+}
+
+.articles-date-itself{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+
+.articles-date-box{
+    display: flex;
+    padding-bottom: 23px;
+}
+
+.articles-date-time{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 85px;
+}
+
+
+.articles-btn{
+    margin: auto;
+    display: block;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    height: 56px;
+    color: white;
+    background-color: #E50168;
+    transition: 500ms ease-in-out;
+}
+
+.articles-btn:hover , .articles-btn:focus{
+    background-color: #14274e;
+    color: white;
+}
+
+@media  screen and (max-width : 340px) {
+    
+    .articles-post {
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 29px;
+        box-shadow: -1px 6px 21px 3px rgb(0 0 0 / 25%);
+    }
+
+    .f-star-img {
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+
+.articles-list-body{
+    padding-bottom: 120px;
+}
+
+.articles-post-title::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #E50168;
+    padding-right: 10px;
+}
+
+.articles-date-itself::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f784";
+    color: #E50168;
+    padding-right: 10px;
+}
+
+.articles-date-time::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f017";
+    color: #E50168;
+    padding-right: 10px;
+}
+
+.a-p-h-3 {
+    font-size: 22px;
+    width: 218px;
+    line-height: 33px;
+}
+
+/* articles nav (end) */

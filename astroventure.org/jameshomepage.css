@@ -1,0 +1,310 @@
+/* body section (start) */
+
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+
+}
+
+
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+
+    
+}
+
+
+
+
+
+
+/* body section (end) */
+
+
+/* navbar section (start) */
+
+    .James-navbar{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: transparent;
+        transition: 500ms ease-in-out;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 4;
+    }
+
+    .james-nav-main, .james-nav-main:hover, .james-nav-main:focus{
+        font-size: 20px;
+        color: black;
+        cursor: pointer;
+        font-weight: 700;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+    }
+
+    /* navbar section (end) */
+
+
+    /* james webb hero (start) */
+
+   
+
+
+    .james-webb-hero-p{
+        font-size: 19px;
+line-height: 35px;
+width: 445px;
+margin-top: 24px;
+color: black;
+    }
+
+    .james-webb-hero-head {
+        padding-top: 178px;
+        font-size: 65px;
+        line-height: 75px;
+        color: black;
+        margin-left: 55px;
+      }
+
+
+      .james-webb-hero-p {
+        font-size: 17px;
+        line-height: 33px;
+        width: 398px;
+        margin-top: 24px;
+        color: black;
+        margin-left: 55px;
+      }
+
+      .james-webb-hero-image {
+        width: 466px;
+        border-radius: 20px;
+        margin-top: 200px;
+        box-shadow: -4px 6px 63px -29px rgba(0,0,0,0.75);
+      }
+
+      .j-w-h-h{
+          color: #E50168;
+          font-weight: 700;
+      }
+     
+@media  screen and (max-width : 1265px) {
+    
+    .james-webb-hero{
+        padding-top: 53px;
+    }
+
+}
+
+@media  screen and (max-width : 1199px) {
+    .james-webb-hero-head {
+        font-size: 57px;
+        line-height: 67px;
+    }
+}
+
+@media  screen and (max-width : 1180px) {
+    
+    .james-webb-hero-image {
+        width: 395px;
+    }
+
+}
+
+@media  screen and (max-width : 991px) {
+    .james-webb-hero-head {
+        font-size: 64px;
+        line-height: 78px;
+        width: 463px;
+        margin: auto;
+        display: block;
+      }
+
+      .james-webb-hero-p{
+          margin: auto;
+          display: block;
+          width: 466px;
+          padding-top: 30px;
+          padding-bottom: 76px;
+      }
+
+      .james-webb-hero-image {
+        width: 466px;
+        margin: auto;
+        display: block;
+      }
+}
+
+@media  screen and (max-width : 560px) {
+    
+    .james-webb-hero-head {
+        font-size: 55px;
+        line-height: 71px;
+        width: 399px;
+    }
+
+    .james-webb-hero-p {
+        width: 399px;
+    }
+
+    .james-webb-hero-image {
+        width: 399px;
+    }
+
+}
+
+@media  screen and (max-width : 480px) {
+    .james-webb-hero-head {
+        font-size: 45px;
+        line-height: 59px;
+        width: 326px;
+      }
+
+      .james-webb-hero-p {
+        width: 326px;
+        font-size: 15px;
+      }
+
+      .james-webb-hero-image {
+        width: 326px;
+      }
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .james-webb-hero-head {
+        font-size: 36px;
+        line-height: 47px;
+        width: 262px;
+        padding-top: 140px;
+      }
+
+      .james-webb-hero-p {
+        width: 262px;
+        font-size: 15px;
+        padding-bottom: 60px;
+      }
+
+      .james-webb-hero-image {
+        width: 262px;
+      }
+}
+
+
+@media  screen and (max-width : 340px) {
+    .james-webb-hero-head {
+        font-size: 33px;
+        line-height: 46px;
+        width: 239px;
+    }
+
+    .james-webb-hero-p {
+        width: 239px;
+        font-size: 14px;
+        padding-top: 20px;
+        line-height: 32px;
+    }      
+
+
+    .james-webb-hero-image {
+        width: 239px;
+      }
+}
+
+/* james webb hero (end) */
+
+/* james webb article section (start) */
+
+.james-article-section{
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.james-articles-section-head{
+    font-size: 20px;
+    margin-left: 55px;
+    color: black;
+    font-weight: 700;
+}
+
+.james-articles-section-head::after{
+    content: '';
+    display: block;
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+@media  screen and (max-width : 991px) {
+    .james-articles-section-head{
+        width: 466px;
+        margin: auto;
+    }
+}
+
+@media  screen and (max-width : 560px) {
+    
+    .james-articles-section-head {
+        width: 399px;
+      }
+}
+
+@media  screen and (max-width : 480px) {
+    
+    .james-articles-section-head {
+        width: 326px;
+      }
+
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .james-articles-section-head {
+        width: 262px;
+      }
+
+}
+
+.a-p-h-3 {
+    background-color: white;
+  }
+
+  .articles-post-title {
+    background-color: white;
+  }
+
+  .articles-date-box {
+    background-color: white;
+  }
+
+  .articles-date-itself{
+      background-color: white;
+  }
+
+  .articles-date-time{
+      background-color: white;
+  }
+
+/* james webb article section (end) */

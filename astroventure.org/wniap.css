@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wniap{
+    background-image: url("rocket-g62883f154_1920.jpg");
+    background-position: bottom;
+    color: white;
+}
+
+.winap-head{
+    font-size: 133px;
+    font-weight: 700;
+    line-height: 120px;
+    width: 780px;
+    margin-top: 6px;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+}
+
+
+.wniap-box {
+    padding-top: 190px;
+    padding-bottom: 242px;
+    
+}
+
+.wniap-smol-head{
+    font-size: 39px;
+margin-bottom: -3px;
+text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+}
+
+
+.winap-border {
+    height: 20px;
+    width: 305px;
+    background-color: #D3BC9F;
+    border-radius: 16px;
+    margin-top: 56px;
+}
+
+
+.mini-logo{
+    width: 110px;
+border-radius: 56px;
+float: right;
+}
+
+
+@media  screen and (max-width : 1232px) {
+    .wniap-box {
+        padding-top: 190px;
+        padding-bottom: 242px;
+        margin-left: 101px;
+    }
+
+    .mini-logo {
+        width: 110px;
+        border-radius: 56px;
+        float: right;
+        margin-right: 129px;
+    }
+}
+
+
+@media  screen and (max-width : 1199px) {
+    
+    .wniap-box {
+        padding-top: 190px;
+        padding-bottom: 242px;
+        margin-left: 0px;
+    }
+
+    .wniap-smol-head {
+        font-size: 39px;
+        margin-bottom: -3px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        width: 116px;
+    }
+
+    .mini-logo {
+        width: 110px;
+        border-radius: 56px;
+        float: right;
+        margin-right: 39px;
+    }
+
+}
+
+@media  screen and (max-width : 1024px) {
+    .wniap-box {
+        padding-top: 190px;
+        padding-bottom: 242px;
+        margin-left: 85px;
+    }
+
+    .mini-logo {
+        width: 110px;
+        border-radius: 56px;
+        float: right;
+        margin-right: 126px;
+    }
+}
+
+@media  screen and (max-width : 991px) {
+    .winap-head {
+        font-size: 114px;
+        font-weight: 700;
+        line-height: 111px;
+        width: 780px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+
+    .winap-border {
+        height: 20px;
+        width: 268px;
+        background-color: #D3BC9F;
+        border-radius: 16px;
+        margin-top: 40px;
+    }
+
+    .wniap-box {
+        padding-top: 190px;
+        padding-bottom: 242px;
+        margin-left: -16px;
+    }
+
+    .mini-logo {
+        width: 110px;
+        border-radius: 56px;
+        float: right;
+        margin-right: 39px;
+    }
+}
+
+@media  screen and (max-width : 845px) {
+    .wniap-box {
+        padding-top: 190px;
+        padding-bottom: 242px;
+        margin-left: 52px;
+    }
+
+
+    .wniap-smol-head {
+        font-size: 26px;
+        margin-bottom: -3px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        width: 116px;
+    }
+
+    .winap-head {
+        font-size: 81px;
+        font-weight: 700;
+        line-height: 77px;
+        width: 471px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+
+
+    .winap-border {
+        height: 13px;
+        width: 187px;
+        background-color: #D3BC9F;
+        border-radius: 16px;
+        margin-top: 35px;
+    }
+
+    .mini-logo {
+        width: 77px;
+        border-radius: 56px;
+        float: right;
+        margin-right: 78px;
+        margin-top: 78px;
+    }
+
+}
+
+@media  screen and (max-width : 635px) {
+    .wniap-box {
+        padding-top: 211px;
+        padding-bottom: 242px;
+        margin-left: 29px;
+    }
+}
+
+@media  screen and (max-width : 546px) {
+    
+    .winap-border {
+        height: 9px;
+        width: 157px;
+        background-color: #D3BC9F;
+        border-radius: 16px;
+        margin-top: 24px;
+    }
+
+    .winap-head {
+        font-size: 66px;
+        font-weight: 700;
+        line-height: 65px;
+        width: 471px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+
+    .wniap-smol-head {
+        font-size: 23px;
+        margin-bottom: -3px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        width: 116px;
+    }
+
+}
+
+
+
+
+@media  screen and (max-width : 514px) {
+    .winap-head {
+        font-size: 66px;
+        font-weight: 700;
+        line-height: 65px;
+        width: 380px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+}
+
+
+@media  screen and (max-width : 500px) {
+    
+    .wniap {
+        background-position: bottom;
+        background-position-x: 628px;
+    }
+}
+
+@media  screen and (max-width : 470px) {
+    .winap-head {
+        font-size: 59px;
+        font-weight: 700;
+        line-height: 58px;
+        width: 341px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+
+    .winap-border {
+        height: 9px;
+        width: 139px;
+        background-color: #D3BC9F;
+        border-radius: 16px;
+        margin-top: 24px;
+    }
+}
+
+@media  screen and (max-width : 417px) {
+    
+    .winap-head {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 51px;
+        width: 299px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+
+    .wniap-smol-head {
+        font-size: 17px;
+        margin-bottom: -3px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        width: 50px;
+    }
+
+
+    .winap-border {
+        height: 8px;
+        width: 119px;
+        background-color: #D3BC9F;
+        border-radius: 16px;
+        margin-top: 21px;
+    }
+
+}
+
+@media  screen and (max-width : 380px) {
+    
+    .wniap-box {
+        padding-top: 211px;
+        padding-bottom: 242px;
+        margin-left: 23px;
+    }
+
+    .wniap-smol-head {
+        font-size: 14px;
+        margin-bottom: -3px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+        width: 50px;
+    }
+
+    .winap-head {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 45px;
+        width: 260px;
+        margin-top: 6px;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    }
+
+    .winap-border {
+        height: 8px;
+        width: 108px;
+        background-color: #D3BC9F;
+        border-radius: 16px;
+        margin-top: 21px;
+    }
+
+    .mini-logo {
+        width: 77px;
+        border-radius: 56px;
+        float: right;
+        margin-right: 36px;
+        margin-top: 78px;
+    }
+
+
+
+}
+
+
+@media  screen and (max-width : 340px) {
+    .wniap-box {
+        padding-top: 211px;
+        padding-bottom: 242px;
+        margin-left: 12px;
+    }
+}
+
+.winap-post-head{
+    font-size: 21px;
+    width: 255px;
+    padding-left: 30px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #14274e;
+    padding-top: 12px;
+}
+
+/* Darkmode section (start) */
+
+
+[data-theme="dark"] .wniap{
+    background-image: url("orion-nebula-11107_1920.jpg");
+    background-position: top;
+    color: white;
+}
+
+[data-theme="dark"] .winap-border {
+    background-color:  white;
+}
+
+
+/* Darkmode section (end) */

@@ -1,0 +1,389 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+    overflow: none;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* Body section (end) */
+
+
+/*  Night sky articles (start) */
+
+
+
+
+.mod-url{
+    color: #E50168;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+.mod-url:hover{
+    color: #14274e;
+}
+
+
+@media  screen and (max-width : 436px) {
+    .night-p-1 {
+        font-size: 15px;
+        width: 305px;
+        margin-left: 17px;
+        margin-top: -30px;
+        text-align: left;
+        padding-top: 85px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 15px;
+        padding-top: 0px;
+        line-height: 33px;
+        width: 303px;
+        text-align: left;
+        margin-left: 17px;
+        margin-top: 50px;
+    }
+}
+
+
+@media  screen and (max-width : 366px) {
+    
+    .night-p-1 {
+        font-size: 15px;
+        width: 236px;
+        margin-left: 10px;
+        margin-top: -30px;
+        text-align: left;
+        padding-top: 85px;
+        line-height: 33px;
+    }
+
+    .night-p-2 {
+        font-size: 15px;
+        padding-top: 0px;
+        line-height: 33px;
+        width: 227px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+}
+
+.night-p-3-head{
+    font-size: 40px;
+    color: #14274e;
+    font-weight: 700;
+}
+
+.night-p-3{
+    font-size: 16px;
+    margin-top: 42px;
+    line-height: 30px;
+}
+
+@media  screen and (max-width : 646px) {
+    .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 387px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 447px) {
+    .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 341px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 390px) {
+    .night-p-3 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 319px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 372px) {
+    .night-p-3 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 264px;
+        line-height: 30px;
+    }
+
+    .night-p-3-head {
+        font-size: 40px;
+        color: #14274e;
+        width: 126px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+}
+
+@media  screen and (max-width : 366px) {
+    .night-p-3-head {
+        font-size: 40px;
+        color: #14274e;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .night-p-3 {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 42px;
+        width: 264px;
+        line-height: 30px;
+    }
+}
+
+
+    .mod-vid-btn {
+        padding: 14px 34px;
+        font-weight: 900;
+        color: white;
+        background-color: #E50168;
+        outline: none;
+        border: none;
+        transition: 500ms ease-in-out;
+        margin-left: 0px;
+    }
+
+    .mod-vid-btn:hover{
+        color: white;
+        background-color: #14274e;
+    }
+
+    @media  screen and (max-width : 991px) {
+        
+        .mod-vid-btn {
+            padding: 14px 34px;
+            font-weight: 900;
+            color: white;
+            background-color: #E50168;
+            outline: none;
+            border: none;
+            transition: 500ms ease-in-out;
+            margin-left: -6px;
+        }
+
+    }
+
+    @media  screen and (max-width : 835px) {
+        .mod-vid-btn {
+            padding: 14px 34px;
+            font-weight: 900;
+            color: white;
+            background-color: #E50168;
+            outline: none;
+            border: none;
+            transition: 500ms ease-in-out;
+            margin-left: 47px;
+        }
+    }
+
+    @media  screen and (max-width : 549px) {
+        .mod-vid-btn {
+            padding: 14px 34px;
+            font-weight: 900;
+            color: white;
+            background-color: #E50168;
+            outline: none;
+            border: none;
+            transition: 500ms ease-in-out;
+            margin-left: 17px;
+        }
+    }
+
+    @media  screen and (max-width : 436px) {
+        .mod-vid-btn {
+            padding: 14px 34px;
+            font-weight: 900;
+            color: white;
+            margin-top: 15px;
+            background-color: #E50168;
+            outline: none;
+            border: none;
+            transition: 500ms ease-in-out;
+            margin-left: 17px;
+        }
+    }
+
+    .night-list{
+        margin-left: -26px;
+    }
+
+    @media  screen and (max-width : 1036px) {
+        .night-list {
+            margin-left: 13px;
+        }
+    }
+
+    @media  screen and (max-width : 991px) {
+        
+        .night-list {
+            margin-left: -32px;
+        }
+
+    }
+
+    @media  screen and (max-width : 835px) {
+        .night-list {
+            margin-left: 22px;
+        }
+    }
+
+    @media  screen and (max-width : 551px) {
+        .night-list {
+            margin-left: 13px;
+        }
+    }
+
+    @media  screen and (max-width : 549px) {
+        
+        .night-list {
+            margin-left: -8px;
+        }
+
+    }
+
+    @media  screen and (max-width : 372px) {
+        
+        .extra{
+            font-size: 14px;
+            margin-top: 42px;
+            width: 274px;
+            line-height: 30px;
+        }
+
+    }
+
+    @media  screen and (max-width : 330px) {
+        .extra {
+            font-size: 14px;
+            margin-top: 42px;
+            width: 228px;
+            line-height: 30px;
+        }
+    }
+
+    @media  screen and (max-width : 646px) {
+      .extraTwo{
+        font-size: 16px;
+        margin-top: 42px;
+        width: 369px;
+        line-height: 30px;
+      }
+    }
+
+    @media  screen and (max-width : 413px) {
+        .extraTwo {
+            font-size: 15px;
+            margin-top: 42px;
+            width: 303px;
+            line-height: 30px;
+        }
+    }
+
+    @media screen and (max-width : 353px) {
+        
+        .extraTwo {
+            font-size: 15px;
+            margin-top: 42px;
+            width: 232px;
+            line-height: 30px;
+        }
+
+    }
+
+    .night-mod{
+        padding-bottom: 130px;
+    }
+
+
+    @media  screen and (max-width : 545px) {
+        .member-social-footer {
+            margin-left: 45px;
+            margin-right: 45px;
+            text-decoration: none;
+            color: #14274e;
+            transition: 500ms ease-in-out;
+        }
+
+        
+        .member-social-footer:hover {
+            margin-left: 45px;
+            margin-right: 45px;
+            text-decoration: none;
+            color: #E50168;
+        }
+
+        .member-social-footer:focus {
+            margin-left: 45px;
+            margin-right: 45px;
+            text-decoration: none;
+            color: #E50168;
+        }
+    }
+
+    @media  screen and (max-width : 344px) {
+        
+        .member-social-footer {
+            margin-left: 31px;
+            margin-right: 31px;
+            text-decoration: none;
+            color: #14274e;
+            transition: 500ms ease-in-out;
+        }
+
+        .member-social-footer:hover {
+            margin-left: 31px;
+            margin-right: 31px;
+            text-decoration: none;
+            color: #E50168;
+        }
+
+        .member-social-footer:focus {
+            margin-left: 31px;
+            margin-right: 31px;
+            text-decoration: none;
+            color: #E50168;
+        }
+
+       
+        
+
+    }
+
+/*  Night sky articles (end) */

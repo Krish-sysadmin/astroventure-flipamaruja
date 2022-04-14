@@ -1,0 +1,948 @@
+/* Dark mode css (start) */
+
+.darkmode--activated .team-member-name{
+    color: #BC6FF1;
+}
+
+.darkmode--activated .team-member-bio {
+    color: white;
+}
+
+
+
+.darkmode--activated .member-social {
+    background-color: #BC6FF1;
+    color: black;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .member-social:hover {
+    background-color: white;
+    color: black;
+}
+
+.darkmode--activated .member-social:focus {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+.darkmode--activated .team-member-pic {
+    box-shadow: 1px 9px 32px 10px rgba(137,44,220,0.51);
+}
+
+.darkmode--activated .navbar-team-nav {
+    color: #892CDC;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .navbar-team-nav:hover {
+    color: white;
+}
+
+.darkmode--activated .navbar-team-nav:focus {
+    color: white;
+}
+
+
+.darkmode--activated .team-member-footer-logo {
+    color: #BC6FF1;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .team-member-footer-logo:hover {
+    color: white;
+}
+
+.darkmode--activated .team-member-footer-logo:focus {
+    color: white;
+}
+
+.darkmode-toggle {
+    z-index: 1;
+}
+
+.darkmode--activated .team-footer-id{
+    color: white;
+}
+
+.darkmode--activated .team-member-nav {
+    color: #BC6FF1;
+}
+
+.darkmode--activated .member-social-footer {
+    color: #BC6FF1;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .member-social-footer:hover {
+    color: white;
+}
+
+.darkmode--activated .member-social-footer:focus {
+    color: white;
+}
+
+
+@media screen and (max-width: 545px){
+.member-social-footer {
+    margin-left: 45px;
+    margin-right: 45px;
+    text-decoration: none;
+    color: #14274e;
+    transition: 500ms ease-in-out;
+}
+
+.member-social-footer:hover {
+    margin-left: 45px;
+    margin-right: 45px;
+    text-decoration: none;
+    color: #ff0073;
+}
+
+.member-social-footer:focus {
+    margin-left: 45px;
+    margin-right: 45px;
+    text-decoration: none;
+    color: #ff0073;
+}
+
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .member-social-footer {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #14274e;
+        transition: 500ms ease-in-out;
+    }
+
+    .member-social-footer:hover {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #ff0073;
+        transition: 500ms ease-in-out;
+    }
+
+    .member-social-footer:focus {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #ff0073;
+        transition: 500ms ease-in-out;
+    }
+
+
+}
+
+@media  screen and (max-width : 1268px) {
+    
+    .darkmode-layer--button {
+        width: 2.9rem;
+        height: 2.9rem;
+        border-radius: 50%;
+        right: 32px;
+        bottom: 90px !important;
+        left: unset;
+    }
+
+    .darkmode-toggle {
+        background: #100f2c;
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        border-radius: 50%;
+        border: none;
+        right: 32px;
+        bottom: 90px !important;
+        left: unset;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media  screen and (max-width : 464px) {
+    
+    .darkmode-layer--button {
+        width: 2.9rem;
+        height: 2.9rem;
+        border-radius: 50%;
+        right: 32px;
+        bottom: 32px !important;
+        left: unset;
+    } 
+
+    .darkmode-toggle {
+        background: #100f2c;
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        border-radius: 50%;
+        border: none;
+        right: 32px;
+        bottom: 32px !important;
+        left: unset;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.darkmode--activated .p-hero-head {
+    width: 893px;
+    color: #892CDC;
+    padding-top: 140px;
+    line-height: 112px;
+    font-weight: 900;
+    font-size: 90px;
+}
+
+.darkmode--activated .p-hero-title {
+    color: #BC6FF1;
+    font-weight: 900;
+}
+
+.darkmode--activated .article-profile-url {
+    text-decoration: none;
+    color: #BC6FF1;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .article-profile-url:hover {
+    text-decoration: none;
+    color: #9BA4B4;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .Cele-last {
+    text-decoration: none;
+    color: #BC6FF1;
+}
+
+.darkmode--activated .Cele-last:hover {
+    text-decoration: none;
+    color: #9BA4B4;
+}
+
+.darkmode--activated .articles-nav-head {
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: #9BA4B4;
+    font-weight: 900;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .articles-nav-head:hover {
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .Phosphoine-p-1 {
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+    color: white;
+}
+
+ .darkmode--activated .Phosphoine-p-2 {
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+    color: white;
+}
+
+.darkmode--activated .night-p-3-head {
+    font-size: 40px;
+    color: #892CDC;
+    font-weight: 700;
+}
+
+.darkmode--activated .night-p-3 {
+    font-size: 16px;
+    margin-top: 42px;
+    line-height: 30px;
+    color: white;
+}
+
+.darkmode--activated .night-list {
+    margin-left: -26px;
+    color: #BC6FF1;
+}
+
+.darkmode--activated .mod-url {
+    color: #892CDC;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .mod-url:hover {
+    color: #9BA4B4;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 500ms ease-in-out;
+}
+
+.darkmode--activated .mod-vid-btn{
+    color: white;
+    background-color: #892CDC;
+}
+
+.darkmode--activated .mod-vid-btn:hover{
+    color: white;
+    background-color: #BC6FF1;
+}
+
+@media  screen and (maxx-width : 1199px) {
+    .darkmode--activated .p-hero-head {
+        width: 893px;
+        color: #892CDC;
+        padding-top: 140px;
+        line-height: 112px;
+        font-weight: 900;
+        font-size: 90px;
+    }
+
+  
+}
+
+@media  screen and (max-width : 991px) {
+    .darkmode--activated .p-hero-head {
+        width: 695px;
+        color: #892CDC;
+        padding-top: 140px;
+        line-height: 95px;
+        font-weight: 900;
+        font-size: 73px;
+    }
+
+    .darkmode--activated .night-list {
+        margin-left: -32px;
+    }
+}
+
+@media  screen and (max-width : 835px) {
+    
+   .darkmode--activated .p-hero-head {
+        width: 618px;
+        color: #892CDC;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 84px;
+        font-weight: 900;
+        font-size: 65px;
+    }
+
+    .darkmode--activated .Phosphoine-p-1 {
+        font-size: 16px;
+        width: 552px;
+        margin-top: 85px;
+        margin-left: 47px;
+        color: white;
+        line-height: 33px;
+    }
+
+    .darkmode--activated .Phosphoine-p-2 {
+        font-size: 16px;
+        margin-top: 85px;
+        color: white;
+        line-height: 33px;
+        width: 513px;
+        margin-left: 47px;
+    }
+
+    .darkmode--activated .night-p-3-head {
+        font-size: 40px;
+        color: #892CDC;
+        font-weight: 700;
+    }
+
+    .darkmode--activated .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        line-height: 30px;
+        color: white;
+    }
+
+    .darkmode--activated .night-list {
+        margin-left: 22px;
+    }
+
+}
+
+@media  screen and (max-width : 720px) {
+    
+    .darkmode--activated .p-hero-head {
+        width: 558px;
+        color: #892CDC;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 73px;
+        font-weight: 900;
+        font-size: 59px;
+    }
+
+}
+
+@media  screen and (max-width : 666px) {
+    .darkmode--activated .p-hero-head {
+        width: 505px;
+        color: #892CDC;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 62px;
+        font-weight: 900;
+        font-size: 53px;
+    }
+}
+
+@media  screen and (max-width : 646px) {
+
+.darkmode--activated .Phosphoine-p-1 {
+    font-size: 15px;
+    width: 387px;
+    margin-top: 85px;
+    margin-left: 47px;
+    line-height: 33px;
+    color: white;
+}
+
+.darkmode--activated .Phosphoine-p-2 {
+    font-size: 15px;
+    margin-top: 85px;
+    line-height: 33px;
+    color: white;
+    width: 416px;
+    margin-left: 47px;
+}
+
+.darkmode--activated .night-p-3-head {
+    font-size: 40px;
+    color: #892CDC;
+    font-weight: 700;
+}
+
+.darkmode--activated .night-p-3 {
+    font-size: 16px;
+    margin-top: 42px;
+    width: 387px;
+    line-height: 30px;
+    color: white;
+}
+
+.darkmode--activated .night-p-3 {
+    font-size: 16px;
+    margin-top: 42px;
+    width: 387px;
+    line-height: 30px;
+}
+
+.darkmode--activated .extraTwo {
+    font-size: 16px;
+    margin-top: 42px;
+    width: 369px;
+    line-height: 30px;
+}
+
+}
+
+@media screen and (max-width : 600px) {
+    
+ .darkmode--activated  .p-hero-head  {
+        width: 419px;
+        color: #892CDC;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 58px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+}
+
+@media  screen and (max-width : 571px) {
+    .darkmode--activated .Phosphoine-p-1{
+        font-size: 15px;
+        width: 387px;
+        margin-top: 85px;
+        margin-left: 47px;
+        line-height: 33px;
+        color: white;
+    }
+}
+
+@media  screen and (max-width : 570px) {
+    .darkmode--activated .Phosphoine-p-1{
+            color: white;
+            font-size: 15px;
+            width: 407px;
+            margin-top: 85px;
+            margin-left: 47px;
+            line-height: 33px;
+        
+    }
+}
+
+@media  screen and (max-width : 551px) {
+    
+    .darkmode--activated .p-hero-head {
+        width: 419px;
+        color: #892CDC;
+        margin-left: 37px;
+        padding-top: 140px;
+        line-height: 58px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+     .darkmode--activated .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 440px;
+        margin-top: 85px;
+        margin-left: 37px;
+        line-height: 33px;
+    }
+
+    .darkmode--activated .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 416px;
+        color: white;
+        margin-left: 37px;
+    }
+
+    .darkmode--activated .night-p-3-head {
+        font-size: 40px;
+        color: #892CDC;
+        font-weight: 700;
+    }
+
+    .darkmode--activated .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 387px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .mod-vid-btn {
+        padding: 14px 34px;
+        font-weight: 900;
+        color: white;
+        background-color: #E50168;
+        outline: none;
+        border: none;
+        transition: 500ms ease-in-out;
+        margin-left: 38px;
+    }
+
+    .darkmode--activated .mod-vid-btn {
+        padding: 14px 34px;
+        font-weight: 900;
+        color: white;
+        background-color: #892CDC;
+        outline: none;
+        border: none;
+        transition: 500ms ease-in-out;
+        margin-left: 38px;
+    }
+
+    .darkmode--activated .night-list {
+        margin-left: 13px;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 369px;
+        color: white;
+        line-height: 30px;
+    }
+    
+    
+
+}
+
+@media  screen and (max-width : 549px) {
+    
+    .darkmode--activated .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 407px;
+        color: white;
+        margin-top: 85px;
+        margin-left: 17px;
+        line-height: 33px;
+    }
+
+    
+    .darkmode--activated .p-hero-head {
+        width: 419px;
+        color: #892CDC;
+        margin-left: 18px;
+        padding-top: 140px;
+        line-height: 54px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .darkmode--activated .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 406px;
+        margin-left: 17px;
+        color: white;
+    }
+
+    .darkmode--activated .night-p-3-head {
+        font-size: 40px;
+        color: #892CDC;
+        font-weight: 700;
+    }
+
+    .darkmode--activated .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 387px;
+        line-height: 30px;
+    }
+
+ .mod-vid-btn {
+        padding: 14px 34px;
+        font-weight: 900;
+        color: white;
+        background-color: #E50168;
+        outline: none;
+        border: none;
+        transition: 500ms ease-in-out;
+        margin-left: 18px;
+    }
+
+    .darkmode--activated  .mod-vid-btn {
+        padding: 14px 34px;
+        font-weight: 900;
+        color: white;
+        background-color: #892CDC;
+        outline: none;
+        border: none;
+        transition: 500ms ease-in-out;
+        margin-left: 18px;
+    }
+
+    .darkmode--activated .night-list {
+        margin-left: -8px;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 369px;
+        line-height: 30px;
+    }
+
+}
+
+@media  screen and (max-width : 480px) {
+    
+     .darkmode--activated .p-hero-head {
+        width: 378px;
+        color:  #892CDC;
+        margin-left: 17px;
+        padding-top: 140px;
+        line-height: 52px;
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .darkmode--activated .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 368px;
+        margin-top: 85px;
+        margin-left: 17px;
+        line-height: 33px;
+    }
+
+    .darkmode--activated .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 354px;
+        margin-left: 17px;
+        color: white;
+    }
+
+    .darkmode--activated .night-p-3-head {
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .darkmode--activated .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 387px;
+        line-height: 30px;
+        color: white;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 369px;
+        line-height: 30px;
+    }
+
+}
+
+@media  screen and (max-width : 436px) {
+    
+    .darkmode--activated .night-p-1 {
+        font-size: 15px;
+        width: 305px;
+        margin-left: 17px;
+        margin-top: -30px;
+        text-align: left;
+        padding-top: 85px;
+        line-height: 33px;
+    }
+
+    .darkmode--activated .p-hero-head {
+        width: 341px;
+        color: #892CDC;
+        margin-left: 17px;
+        padding-top: 140px;
+        line-height: 52px;
+        font-weight: 900;
+        font-size: 36px;
+    }
+
+    .darkmode--activated .Phosphoine-p-2 {
+        font-size: 15px;
+        padding-top: 0px;
+        line-height: 33px;
+        width: 303px;
+        text-align: left;
+        margin-left: 17px;
+        margin-top: 50px;
+        color: white;
+    }
+
+    .darkmode--activated .night-p-3-head {
+        font-size: 40px;
+        color: #892CDC;
+        font-weight: 700;
+    }
+
+    .darkmode--activated .night-p-3 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 341px;
+        line-height: 30px;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 369px;
+        line-height: 30px;
+    }
+
+}
+
+@media  screen and (max-width : 413px) {
+    .darkmode--activated .extraTwo {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 303px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 400px) {
+    
+   .darkmode--activated .p-hero-head {
+        width: 312px;
+        color: #892CDC;
+        margin-left: 17px;
+        padding-top: 140px;
+        line-height: 46px;
+        font-weight: 900;
+        font-size: 33px;
+    }
+
+}
+
+@media  screen and (max-width : 390px) {
+    
+    .darkmode--activated .night-p-3 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 319px;
+        line-height: 30px;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 303px;
+        line-height: 30px;
+        color: white;
+    }
+
+}
+
+@media  screen and (max-width : 372px) {
+    .darkmode--activated .night-p-3 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 264px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .darkmode--activated .night-p-3-head {
+        font-size: 40px;
+        color: #892CDC;
+        width: 117px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .darkmode--activated .extra {
+        font-size: 14px;
+        margin-top: 42px;
+        width: 274px;
+        line-height: 30px;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 303px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 366px) {
+    
+    .darkmode--activated .night-p-1 {
+        font-size: 15px;
+        width: 236px;
+        margin-left: 10px;
+        margin-top: -30px;
+        text-align: left;
+        padding-top: 85px;
+        line-height: 33px;
+    }
+
+    .darkmode--activated .p-hero-head {
+        width: 284px;
+        color: #892CDC;
+        margin-left: 10px;
+        padding-top: 140px;
+        line-height: 40px;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .darkmode--activated .night-p-2 {
+        font-size: 15px;
+        padding-top: 0px;
+        line-height: 33px;
+        width: 227px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 50px;
+        color: white;
+    }
+
+    .darkmode--activated .night-p-3 {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 42px;
+        width: 264px;
+        line-height: 30px;
+    }
+    
+
+    .darkmode--activated .extra {
+        font-size: 14px;
+        margin-top: 42px;
+        width: 274px;
+        line-height: 30px;
+        color: white;
+    }
+
+    .darkmode--activated .extraTwo {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 303px;
+        line-height: 30px;
+    }
+
+}
+
+@media  screen and (max-width : 353px) {
+      .darkmode--activated .extraTwo {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 232px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 340px) {
+    
+    .darkmode--activated .p-hero-head {
+        width: 267px;
+        color: #892CDC;
+        margin-left: 10px;
+        padding-top: 140px;
+        line-height: 40px;
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+}
+
+@media  screen and (max-width : 330px) {
+    .darkmode--activated .extra {
+        font-size: 14px;
+        margin-top: 42px;
+        width: 228px;
+        line-height: 30px;
+    }
+}
+
+
+
+.darkmode--activated .m-p-btn {
+    background-color: #892CDC;
+}
+
+
+.darkmode--activated .m-p-btn:hover {
+    background-color: #BC6FF1;
+}
+
+.darkmode--activated .module-post{
+
+    box-shadow: 1px 9px 32px 10px rgb(137 44 220 / 51%);
+}

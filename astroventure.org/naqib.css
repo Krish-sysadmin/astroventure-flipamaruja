@@ -1,0 +1,101 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media  screen and (max-width : 623px) {
+    ::-webkit-scrollbar{
+
+        width: 0px;
+     
+     }
+     
+     
+     ::-webkit-scrollbar-thumb{
+         background-color: transparent;
+     }
+     
+}
+
+
+/*body section (end) */
+
+.rajuk-link{
+    color: #E50168;
+    font-weight: 700;
+}
+
+
+.rajuk-link:hover{
+    color: #E50168;
+    text-decoration: none;
+
+}
+
+.rajuk-link:focus{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+
+@media  screen and (max-width : 422px) {
+    
+    .team-member-name {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 34px;
+        font-weight: 700;
+        color: #14274e;
+    }
+     
+}
+
+
+@media  screen and (max-width : 358px) {
+    
+    .team-member-name {
+        text-align: center;
+        font-size: 44px;
+        padding-top: 34px;
+        font-weight: 700;
+        color: #14274e;
+    }
+
+}
+
+@media  screen and (max-width : 350px) {
+    
+    .team-member-bio {
+        text-align: center;
+        font-size: 14px;
+        width: 238px;
+        line-height: 33px;
+        margin: auto;
+        padding-top: 40px;
+        color: #394867;
+    }
+
+}

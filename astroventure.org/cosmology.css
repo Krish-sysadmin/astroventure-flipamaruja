@@ -1,0 +1,522 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mini-head{
+    padding-top: 36px;
+    color: rgb(20, 39, 78);
+    padding-bottom: 23px;
+}
+
+.mini-head::before{
+    font-family: "Font Awesome 5 Free";
+font-weight: 900;
+content: "\f518";
+color: #E50168;
+margin-left: 0px;
+margin-right: 20px;
+font-size: 40px;
+}
+
+#mini-head-b::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f02d";
+    color: #E50168;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.cosm-p{
+
+    margin-top: 25px;
+
+}
+
+.cosm-p-url{
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+    color: #E50168;
+}
+
+.cosm-p-url:hover{
+    text-decoration: none;
+    color: rgb(20, 39, 78);
+}
+
+.cosm-p-url:focus{
+    text-decoration: none;
+    color: rgb(20, 39, 78);
+}
+
+@media  screen and (max-width : 1036px) {
+    
+    .cosm-p{
+        margin-left: 0px;
+    }
+
+}
+
+@media  screen and (max-width : 835px) {
+    .mini-head{
+        margin-left: 48px;
+    }
+
+    .cosm-p {
+        margin-left: 48px;
+    }
+}
+
+@media  screen and (max-width : 551px) {
+    
+    .mini-head {
+        margin-left: 37px;
+    }
+
+    .cosm-p {
+        margin-left: 37px;
+    }
+
+}
+
+@media  screen and (max-width : 549px) {
+    .mini-head {
+        margin-left: 18px;
+    }
+
+    .cosm-p {
+        margin-left: 18px;
+    }
+}
+
+
+@media  screen and (max-width : 436px) {
+    .c{
+        width: 270px;
+    }
+}
+
+@media  screen and (max-width : 436px) {
+    
+    .cosm-p {
+        margin-left: 18px;
+        padding-top: 23px;
+    }
+
+    .p-hero-head {
+        font-size: 49px;
+    }
+
+}
+
+@media  screen and (max-width : 366px) {
+    
+    .mini-head {
+        margin-left: 10px;
+    }
+
+    .cosm-p {
+        margin-left: 10px;
+        padding-top: 23px;
+    }
+
+}
+
+@media  screen and (max-width : 362px) {
+    
+    .cosm-p{
+        text-align: left;
+    }
+
+}
+
+
+@media  screen and (max-width : 340px) {
+    .p-hero-head {
+        padding-top: 159px;
+        width: 239px;
+    }
+
+    .c {
+        width: 243px;
+    }
+}
+
+
+.b-m-link{
+    display: block;
+    padding-bottom: 30px;
+    color: #E50168;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+}
+
+.b-m-link:hover{
+    text-decoration: none;
+    color: rgb(20, 39, 78);
+}
+
+
+.b-m-link:focus{
+    text-decoration: none;
+    color: rgb(20, 39, 78);
+}
+
+
+.cosm-p-a {
+    width: 473px;
+    font-size: 15px;
+}
+
+
+.b-m-link::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f35d";
+    color: rgb(20, 39, 78);
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.mini-link-p{
+    display: block;
+    padding-bottom: 30px;
+    color: #E50168;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+}
+
+.mini-link-p:hover{
+    color: #9BA4B4;
+    text-decoration: none;
+
+}
+
+.mini-link-p:focus{
+    color: #9BA4B4;
+    text-decoration: none;
+
+}
+
+.mini-link-p::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f35d";
+    color: rgb(20, 39, 78);
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+
+@media  screen and (max-width : 835px) {
+    .b-m-link {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        margin-left: 50px;
+    }
+}
+
+@media  screen and (max-width : 560px) {
+    .cosm-p-a {
+        width: 322px;
+        font-size: 15px;
+        
+    }
+}
+
+@media  screen and (max-width : 549px) {
+    
+
+    .b-m-link {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        margin-left: 18px;
+    }
+
+    .cosm-p-a {
+        width: 322px;
+        font-size: 15px;
+        margin-left: 18px;
+    }
+}
+
+
+@media  screen and (max-width : 389px) {
+    .b-m-link-mob{
+      margin-left: 32px;
+    }
+
+    .b-m-link{
+        width: 230px;
+    }
+}
+
+
+@media  screen and (max-width : 370px) {
+    
+    .cosm-p-a {
+        width: 215px;
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    
+    .mini-link-p-a{
+        margin-left: 33px;
+    }
+}
+
+@media  screen and (max-width : 366px) {
+    
+    .b-m-link {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        margin-left: 10px;
+    }
+
+    .cosm-p-a {
+        width: 215px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .mini-link-p {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        padding-top: 20px;
+    }
+
+}
+
+
+.task-head-cos{
+    color: rgb(20, 39, 78);
+
+}
+
+
+@media  screen and (max-width : 506px) {
+    
+    .b-m-link-mob-chap-1{
+        display: block;
+        margin-left: 33px;
+    }
+
+}
+
+
+@media  screen and (max-width : 389px) {
+    
+    .b-m-link-mob-chap-2{
+        display: block;
+        margin-left: 32px;
+    }
+
+    .b-m-link-mob-chap-3{
+        display: block;
+        margin-left: 32px;
+    }
+
+}
+
+
+.task-head-cos-read{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.task-head-cos::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+    color: #E50168;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.task-head-cos-read::before{
+
+font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f5da";
+    color: #E50168;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+
+@media  screen and (max-width : 835px) {
+   
+
+    .task-head-cos {
+        color: rgb(20, 39, 78);
+        margin-left: 48px;
+    }
+
+    .task-head-cos-p{
+        margin-left: 48px;
+    }
+
+
+
+    .b-m-link {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        margin-left: 48px;
+    }
+
+    .task-head-cos-read {
+        padding-bottom: 40px;
+        padding-top: 20px;
+        margin-left: 48px;
+    }
+}
+
+
+@media  screen and (max-width : 551px) {
+    
+    .b-m-link {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        margin-left: 37px;
+    }
+
+    .task-head-cos {
+        color: rgb(20, 39, 78);
+        margin-left: 37px;
+    }
+
+    .task-head-cos-p {
+        margin-left: 37px;
+    }
+
+    .task-head-cos-read {
+        padding-bottom: 40px;
+        padding-top: 20px;
+        margin-left: 37px;
+    }
+
+}
+
+
+@media  screen and (max-width : 549px) {
+    
+    .b-m-link {
+        display: block;
+        padding-bottom: 30px;
+        color: #E50168;
+        text-decoration: none;
+        transition: 500ms ease-in-out;
+        margin-left: 18px;
+    }
+
+    .task-head-cos {
+        color: rgb(20, 39, 78);
+        margin-left: 18px;
+    }
+
+    .task-head-cos-p {
+        margin-left: 17px;
+    }
+
+    .task-head-cos-read {
+        padding-bottom: 40px;
+        padding-top: 20px;
+        margin-left: 17px;
+    }
+
+}
+
+
+/* Dark mode (end) */
+
+[data-theme="dark"] .mini-head::before{
+    color: #892CDC;
+}
+
+[data-theme="dark"] #mini-head-b::before{
+    color: #892CDC;
+}
+
+[data-theme="dark"] .task-head-cos::before {
+    color: #892CDC;
+}
+
+
+[data-theme="dark"] .task-head-cos-read::before {
+    color: #892CDC;
+}
+
+[data-theme="dark"] .mini-head {
+    color: #BC6FF1;
+}
+
+[data-theme="dark"] .b-m-link::before {
+    color: #BC6FF1;
+}
+
+[data-theme="dark"] .b-m-link{
+    color: #892CDC;
+transition: 500ms ease-in-out;
+}
+
+[data-theme="dark"] .b-m-link:hover{
+    color: rgba(137,44,220,0.51);
+
+}
+
+[data-theme="dark"] .task-head-cos{
+    color: #BC6FF1;
+}
+
+[data-theme="dark"] .task-head-cos-read{
+    color: #BC6FF1;
+}
+
+[data-theme="dark"] .cosm-p-url{
+    color: #892CDC;
+    transition: 500ms ease-in-out;
+}
+
+[data-theme="dark"] .cosm-p-url:hover{
+    color: rgba(137,44,220,0.51);
+}
+
+[data-theme="dark"] .mini-link-p {
+    transition: 500ms ease-in-out;
+    color: #892CDC;
+}
+
+[data-theme="dark"] .mini-link-p:hover {
+    color: rgba(137,44,220,0.51);
+}
+
+[data-theme="dark"] .mini-link-p::before{
+    color: #BC6FF1;
+}
+
+/* Dark mode (end) */

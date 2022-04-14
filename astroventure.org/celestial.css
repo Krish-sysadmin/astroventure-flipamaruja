@@ -1,0 +1,178 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+    overflow: none;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* Body section (end) */
+
+.celes-img-eq{
+    width: 20%;
+}
+
+.Celes{
+    padding-bottom: 120px;
+}
+
+.celes-img-ok{
+    padding-bottom: 23px;
+}
+
+.Cele-last{
+  color: #9BA4B4;
+  transition: 500ms ease-in-out;
+}
+
+.Cele-last:hover{
+   text-decoration: none;
+   color: #394867;
+}
+
+.Cele-last:focus{
+    text-decoration: none;
+    color: #394867;
+ }
+
+ @media  screen and (max-width : 1036px) {
+    .celes-img-eq {
+        width: 40%;
+    }
+ }
+
+ @media  screen and (max-width : 500px) {
+    
+    .celes-img-eq {
+        width: 64%;
+    }
+
+ }
+
+@media  screen and (max-width : 447px) {
+    .celes-p-3 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 325px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 387px) {
+    .celes-p-3 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 247px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 755px) {
+    
+.celes-img-ok{
+    width: 430px;
+}
+
+}
+
+
+@media  screen and (max-width : 511px) {
+    
+    .celes-img-ok {
+        width: 378px;
+    }
+
+}
+
+@media  screen and (max-width : 447px) {
+    
+    .celes-img-ooka{
+        width: 321px;
+    }
+
+    .celes-img-ok {
+        width: 330px;
+    }
+
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .celes-img-ok {
+        width: 293px;
+    }
+
+    .celes-img-ooka {
+        width: 293px;
+    }
+
+}
+
+@media  screen and (max-width : 357px) {
+    .celes-img-ok {
+        width: 265px;
+    }
+
+    .celes-img-ooka {
+        width: 255px;
+    }    
+}
+
+@media  screen and (max-width : 646px) {
+
+    .celes-p-4{
+    font-size: 16px;
+    margin-top: 42px;
+    width: 375px;
+    line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 430px) {
+    .celes-p-4 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 303px;
+        line-height: 30px;
+    }
+}
+
+@media  screen and (max-width : 370px) {
+    
+    .celes-p-4 {
+        font-size: 16px;
+        margin-top: 42px;
+        width: 303px;
+        line-height: 30px;
+    }
+
+    .celes-p-4 {
+        font-size: 15px;
+        margin-top: 42px;
+        width: 228px;
+        line-height: 30px;
+    }
+
+}

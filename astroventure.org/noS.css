@@ -1,0 +1,277 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media  screen and (max-width : 623px) {
+    ::-webkit-scrollbar{
+
+        width: 0px;
+     
+     }
+     
+     
+     ::-webkit-scrollbar-thumb{
+         background-color: transparent;
+     }
+     
+}
+
+
+/*body section (end) */
+
+
+/* Navbar section (start) */
+
+.no-Social-nav-text{
+  
+   text-decoration: none;
+    font-size: 21px;
+    font-weight: 900;
+    color: #dcdfe4;
+    transition: 500ms ease-in-out;
+
+}
+
+.no-Social-nav-text:hover{
+   color: #14274e;
+    text-decoration: none;
+     font-size: 21px;
+     font-weight: 900;
+ 
+ }
+ 
+
+.no-Social-nav-align{
+    text-align: center;
+}
+
+/* Navbar section (end) */
+
+
+.noS-p {
+    margin: auto;
+    display: block;
+    padding-top: 210px;
+    width: 500px;
+}
+
+
+.noS-head{
+    font-size: 44px;
+    width: 706px;
+    font-weight: 600;
+    margin: auto;
+    line-height: 61px;
+    padding-top: 102px;
+    text-align: center;
+    padding-bottom: 251px;
+    color: #14274e;
+}
+
+
+.s-no{
+    font-size: 19px;
+    font-weight: 100;
+}
+
+@media  screen and (max-width :  830px) {
+    
+    .noS-head {
+        font-size: 37px;
+        width: 599px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 61px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 251px;
+        color: #14274e;
+    }
+     
+}
+
+@media  screen and (max-width : 671px) {
+    .noS-head {
+        font-size: 32px;
+        width: 522px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 55px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 251px;
+        color: #14274e;
+    }
+}
+
+@media  screen and (max-width : 559px) {
+  
+
+    .noS-head {
+        font-size: 27px;
+        width: 436px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 46px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 251px;
+        color: #14274e;
+    }
+
+    .noS-p {
+        margin: auto;
+        display: block;
+        padding-top: 210px;
+        width: 413px;
+    }
+
+}
+
+@media  screen and (max-width : 506px) {
+    .noS-p {
+        margin: auto;
+        display: block;
+        padding-top: 127px;
+        width: 413px;
+    }
+
+
+
+    .noS-head {
+        font-size: 27px;
+        width: 436px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 46px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 93px;
+        color: #14274e;
+    }
+}
+
+@media  screen and (max-width : 473px) {
+    
+    .noS-head {
+        font-size: 23px;
+        width: 371px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 41px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 93px;
+        color: #14274e;
+    }
+
+    .noS-p {
+        margin: auto;
+        display: block;
+        padding-top: 127px;
+        width: 351px;
+    }
+
+}
+
+@media  screen and (max-width : 424px) {
+    
+    .noS-p {
+        margin: auto;
+        display: block;
+        padding-top: 175px;
+        width: 295px;
+    }
+
+    .noS-head {
+        font-size: 20px;
+        width: 331px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 40px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 93px;
+        color: #14274e;
+    }
+
+    .team-member-footer {
+        padding-bottom: 29px;
+        padding-top: 47px;
+    }
+
+}
+
+@media  screen and (max-width : 368px) {
+    
+    .noS-head {
+        font-size: 19px;
+        width: 305px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 40px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 93px;
+        color: #14274e;
+    }
+
+    .s-no {
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+@media  screen and (max-width : 336px) {
+    
+    .noS-p {
+        margin: auto;
+        display: block;
+        padding-top: 175px;
+        width: 261px;
+    }
+
+    .noS-head {
+        font-size: 17px;
+        width: 276px;
+        font-weight: 600;
+        margin: auto;
+        line-height: 34px;
+        padding-top: 102px;
+        text-align: center;
+        padding-bottom: 93px;
+        color: #14274e;
+    }
+
+    .s-no {
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+
+
+}

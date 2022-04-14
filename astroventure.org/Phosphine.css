@@ -1,0 +1,1721 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+    overflow: none;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.bg-phos{
+    background-image: url("wp2248754-venus-planet-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+
+/* Body section (end) */
+
+
+/* phosphine hero section (start) */
+
+.p-hero-head {
+    width: 893px;
+    color: #14274e;
+    padding-top: 234px;
+    line-height: 112px;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+@media  screen and (max-width : 991px) {
+    .p-hero-head {
+        width: 695px;
+        color: #14274e;
+        padding-top: 140px;
+        line-height: 95px;
+        font-weight: 900;
+        font-size: 73px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        width: 474px;
+        font-weight: 900;
+        line-height: 37px;
+    }
+}
+
+@media  screen and (max-width : 835px) {
+    .p-hero-head {
+        width: 618px;
+        color: #14274e;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 84px;
+        font-weight: 900;
+        font-size: 65px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 48px;
+    }
+}
+
+@media  screen and (max-width : 720px) {
+    
+    .p-hero-head {
+        width: 558px;
+        color: #14274e;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 73px;
+        font-weight: 900;
+        font-size: 59px;
+    }
+
+}
+
+@media  screen and (max-width : 666px) {
+    
+    .p-hero-head {
+        width: 505px;
+        color: #14274e;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 62px;
+        font-weight: 900;
+        font-size: 53px;
+    }
+
+}
+
+@media  screen and (max-width : 600px) {
+    
+    .p-hero-head {
+        width: 419px;
+        color: #14274e;
+        margin-left: 48px;
+        padding-top: 140px;
+        line-height: 58px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        width: 391px;
+        line-height: 28px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+}
+
+@media  screen and (max-width : 551px) {
+    .p-hero-head {
+        width: 419px;
+        color: #14274e;
+        margin-left: 37px;
+        padding-top: 140px;
+        line-height: 58px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 37px;
+    }
+}
+
+@media  screen and (max-width : 549px) {
+    
+    .p-hero-head {
+        width: 419px;
+        color: #14274e;
+        margin-left: 18px;
+        padding-top: 140px;
+        line-height: 54px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        margin-left: 17px;
+        font-weight: 900;
+    }
+
+}
+
+@media  screen and (max-width : 480px) {
+    
+    .p-hero-head {
+        width: 378px;
+        color: #14274e;
+        margin-left: 17px;
+        padding-top: 140px;
+        line-height: 52px;
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        font-size: 17px;
+        margin-left: 17px;
+        width: 261px;
+    }
+
+}
+
+@media  screen and (max-width : 436px) {
+    .p-hero-head {
+        width: 326px;
+        color: #14274e;
+        margin-left: 17px;
+        padding-top: 140px;
+        line-height: 52px;
+        font-weight: 900;
+        font-size: 33px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        margin-left: 17px;
+        font-weight: 900;
+    }
+}
+
+@media  screen and (max-width : 400px) {
+    
+    .p-hero-head {
+        width: 312px;
+        color: #14274e;
+        margin-left: 17px;
+        padding-top: 140px;
+        line-height: 46px;
+        font-weight: 900;
+        font-size: 33px;
+    }
+    
+
+}
+
+@media  screen and (max-width : 366px) {
+
+    .p-hero-head {
+        width: 284px;
+        color: #14274e;
+        margin-left: 10px;
+        padding-top: 140px;
+        line-height: 40px;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        margin-left: 10px;
+    }
+    
+}
+
+@media  screen and (max-width : 340px) {
+    .p-hero-head {
+        width: 267px;
+        color: #14274e;
+        margin-left: 10px;
+        padding-top: 140px;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .p-hero-title {
+        color: #5a5b5f;
+        font-weight: 900;
+        font-size: 16px;
+        margin-left: 10px;
+        width: 254px;
+    }
+}
+
+/* Phosphine hero section (end) */
+
+
+/* Articles navbar (start) */
+
+.articles-nav {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #14274e;
+    position: fixed;
+    left: 0px;
+    z-index: 2;
+    right: 0px;
+}
+
+.articles-nav-head{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: #9BA4B4;
+    font-weight: 900;
+    transition: 500ms ease-in-out;
+   
+}
+
+.articles-nav-head:hover{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+   
+}
+
+.articles-nav-head:focus{
+    font-size: 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+   
+}
+
+.articles-nav-head:hover{
+    text-decoration: none;
+}
+
+.p-hero-title{
+    color: #5a5b5f;
+    font-weight: 900;
+}
+
+.article-profile-url{
+    text-decoration: none;
+    color: #5a5b5f;
+    transition: 500ms ease-in-out;
+}
+
+.article-profile-url:hover{
+
+    color: #E50168;
+    text-decoration: none;
+
+}
+
+
+
+/* Articles navbar (end) */
+
+/* Phosphine-Reference-link (start) */
+
+.Phosphine-reference-link{
+    display: block;
+    padding-bottom: 30px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #14274e;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+    width: 525px;
+}
+
+.Phosphine-reference-link:hover{
+    color: #E50168;
+    text-decoration: none;
+}
+
+
+.Phosphine-reference-link:focus{
+    color: #E50168;
+    text-decoration: none;
+}
+
+.Phosphine-reference-link::before{
+   
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f35d";
+    color: #E50168;
+    margin-right: 23px;
+
+
+}
+
+.Phosphine-Article{
+    padding-bottom: 139px;
+}
+
+.Phosphine-reference-link-text{
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #14274e;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+}
+
+.extra-p {
+    margin-left: 41px;
+}
+
+.Phosphine-reference-link-text::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+    color: #E50168;
+    margin-right: 23px;
+}
+
+.p-r-l-width {
+    width: 421px;
+}
+
+@media  screen and (max-width : 835px) {
+    
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 19px;
+        font-weight: 700;
+        margin-left: 47px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 525px;
+    }
+
+    .Phosphine-reference-link-text{
+        margin-left: 47px;
+    }
+
+
+    .Phosphine-p-links {
+        padding-top: 15px;
+        color: #14274e;
+        font-weight: 700;
+        margin-left: 47px;
+        
+    }
+
+}
+
+@media  screen and (max-width : 615px) {
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 47px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 462px;
+    }
+
+    .Phosphine-reference-link-text {
+        margin-left: 47px;
+        width: 188px;
+    }
+}
+
+@media  screen and (max-width : 549px) {
+    .Phosphine-reference-link-text {
+        margin-left: 15px;
+        width: 188px;
+    }
+
+    .Phosphine-p-links {
+        padding-top: 15px;
+        color: #14274e;
+        font-weight: 700;
+        margin-left: 17px;
+        padding-bottom: 42px;
+    }
+
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 17px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 462px;
+    }
+}
+
+@media  screen and (max-width : 520px) {
+    
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 17px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 414px;
+    }
+
+    .Phosphine-reference-link-text {
+        margin-left: 15px;
+        width: 188px;
+        font-size: 16px;
+    }
+     
+}
+
+@media  screen and ( max-width : 462px) {
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 17px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 364px;
+    }
+}
+
+
+
+/* Phosphine-Reference-link (end)    */
+
+
+
+
+/*Phonsphine article section (start) */
+
+.End-link-box {
+    margin-top: 110px;
+    border-top: 7px solid #14274e;
+}
+
+.Phosphine-p-links {
+    padding-top: 15px;
+    color: #14274e;
+    font-weight: 700;
+    padding-bottom: 46px;
+}
+
+
+.Phosphoine-p-1{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+.Phosphoine-p-2{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+.Phosphoine-p-3{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+.Phosphoine-p-4{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+.Phosphoine-p-5{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+.Phosphoine-p-6{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+
+.Phosphoine-p-7{
+    font-size: 16px;
+    margin-top: 85px;
+    line-height: 30px;
+}
+
+
+.P-start{
+    color: #14274e;
+    font-weight: 700;
+    font-size: 59px;
+}
+
+.Phosphone-image-align {
+    margin-top: 165px;
+    text-align: center;
+}
+
+.VJ{
+    font-weight: 900;
+}
+
+.Phosphoine-img{
+    width: 725px;
+    box-shadow: 1px 2px 43px -5px rgba(0,0,0,0.52);
+}
+
+.Phosphine-image-title{
+    font-size: 17px;
+    width: 351px;
+    margin: auto;
+    font-weight: 600;
+    line-height: 30px;
+    color: #5a5b5f;
+    padding-top: 45px;
+}
+
+.Phosphine-p-link{
+    color: #14274e;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px ;
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+}
+
+.Phosphine-p-link:hover{
+    color: #E50168;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px ;
+    text-decoration: none;
+
+    
+}
+
+.Phosphine-p-link::before{
+
+   content: '';
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f35d";
+   color: #E50168;
+   margin-right: 23px;
+
+}
+
+  .p-link-fix{
+    width: 563px;
+    line-height: 46px;
+  }
+
+.Phosphine-p-link-text{
+    color: #14274e;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+
+.Phosphine-p-links::before{
+
+   content: '';
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f292";
+   color: #E50168;
+   margin-right: 23px;
+   
+
+}
+
+.un{
+    margin: 0px;
+}
+
+.un::before{
+    content: '';
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";
+    color: #E50168;
+    margin-right: 23px;
+}
+
+.un:hover{
+   
+color: #14274e;
+margin: 0px;
+
+}
+
+@media  screen and (max-width : 1036px) {
+    
+    .Phosphoine-p-1 {
+        font-size: 16px;
+        width: 590px;
+        margin-left: 39px;
+        margin-top: 85px;
+        line-height: 30px;
+    }
+
+
+    .Phosphoine-p-6 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 39px;
+        line-height: 30px;
+        width: 760px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 16px;
+        margin-top: 85px;
+        line-height: 30px;
+        width: 577px;
+        margin-left: 39px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 39px;
+        width: 600px;
+        line-height: 30px;
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 16px;
+        margin-left: 39px;
+        margin-top: 85px;
+        width: 585px;
+        line-height: 30px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 16px;
+        margin-top: 85px;
+        width: 631px;
+        line-height: 30px;
+        margin-left: 39px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 39px;
+        width: 500px;
+        line-height: 30px;
+    }
+     
+}
+
+@media  screen and (max-width : 991px) {
+ 
+    .Phosphoine-p-2 {
+        font-size: 16px;
+        margin-top: 85px;
+        line-height: 30px;
+        width: 577px;
+        margin-left: -7px;
+    }
+
+    .Phosphoine-p-1 {
+        font-size: 16px;
+        width: 641px;
+        margin-top: 85px;
+        margin-left: -7px;
+        line-height: 30px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: -7px;
+        width: 584px;
+        line-height: 30px;
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 16px;
+        margin-left: -7px;
+        margin-top: 85px;
+        width: 585px;
+        line-height: 30px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 16px;
+        margin-top: 85px;
+        width: 631px;
+        line-height: 30px;
+        margin-left: -7px;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: -7px;
+        line-height: 30px;
+        width: 566px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: -7px;
+        width: 500px;
+        line-height: 30px;
+    }
+
+    .Phosphoine-img {
+        width: 662px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+}
+
+@media  screen and (max-width : 835px) {
+    
+    .Phosphoine-p-1 {
+        font-size: 16px;
+        width: 552px;
+        margin-top: 85px;
+        margin-left: 47px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 16px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 513px;
+        margin-left: 47px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 47px;
+        width: 463px;
+        line-height: 33px;
+    }
+
+
+    .p-3-a{
+      
+            font-size: 16px;
+            margin-top: 85px;
+            margin-left: 37px;
+            width: 463px;
+            line-height: 33px;
+
+    }
+
+    .p-4-a{
+  
+            font-size: 16px;
+            margin-top: 85px;
+            margin-left: 47px;
+            width: 450px;
+            line-height: 33px;
+     
+    }
+
+    .Phosphoine-img {
+        width: 556px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 16px;
+        margin-left: 47px;
+        margin-top: 85px;
+        width: 503px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 16px;
+        margin-top: 85px;
+        width: 459px;
+        line-height: 33px;
+        margin-left: 47px;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 47px;
+        line-height: 33px;
+        width: 477px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 47px;
+        width: 500px;
+        line-height: 33px;
+    }
+
+    .p-link-fix {
+        width: 602px;
+        line-height: 46px;
+    }
+
+    .Phosphine-p-links {
+        padding-top: 15px;
+        color: #14274e;
+        font-weight: 700;
+        margin-left: 47px;
+        padding-bottom: 50px;
+    }
+
+    .Phosphine-p-link {
+        color: #14274e;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        transition: 300ms ease-in-out;
+        margin-left: 47px;
+    }
+     
+}
+
+@media  screen and (max-width : 646px) {
+    
+    .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 387px;
+        margin-top: 85px;
+        margin-left: 47px;
+        line-height: 33px;
+    }
+
+
+    .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 416px;
+        margin-left: 47px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 47px;
+        width: 428px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-img {
+        width: 452px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+    
+    .Phosphoine-p-4 {
+        font-size: 15px;
+        margin-left: 47px;
+        margin-top: 85px;
+        width: 435px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 15px;
+        margin-top: 85px;
+        width: 378px;
+        line-height: 33px;
+        margin-left: 47px;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 47px;
+        line-height: 33px;
+        width: 425px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 47px;
+        width: 426px;
+        line-height: 33px;
+    }
+
+    .p-3-a {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 37px;
+        width: 439px;
+        line-height: 33px;
+    }
+
+    .p-4-a {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 47px;
+        width: 450px;
+        line-height: 33px;
+    }
+}
+
+
+@media  screen and (max-width: 640px) {
+    
+    .Phosphine-p-link {
+        color: #14274e;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        transition: 300ms ease-in-out;
+        margin-left: 47px;
+    }
+
+}
+
+
+@media  screen and (max-width : 617px) {
+    
+    .p-link-fix {
+        width: 536px;
+        line-height: 46px;
+    }
+
+    .Phosphine-p-link {
+        color: #14274e;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        transition: 300ms ease-in-out;
+        margin-left: 47px;
+    }
+     
+}
+
+@media  screen and (max-width : 578px) {
+    .p-link-fix {
+        width: 480px;
+        line-height: 46px;
+    }
+}
+
+@media  screen and (max-width : 570px) {
+
+
+    .p-4-a {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 37px;
+        width: 416px;
+        line-height: 33px;
+    }
+
+    .p-3-a {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 37px;
+        width: 387px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-img {
+        width: 407px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 15px;
+        margin-left: 37px;
+        margin-top: 85px;
+        width: 392px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 15px;
+        margin-top: 85px;
+        width: 378px;
+        line-height: 33px;
+        margin-left: 37px;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 37px;
+        line-height: 33px;
+        width: 408px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 37px;
+        width: 340px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 407px;
+        margin-top: 85px;
+        margin-left: 47px;
+        line-height: 33px;
+    }
+
+}
+
+@media  screen and (max-width : 551px) {
+    
+    .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 440px;
+        margin-top: 85px;
+        margin-left: 37px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 416px;
+        margin-left: 37px;
+    }
+
+
+     
+}
+
+
+@media  screen and (max-width : 549px) {
+    
+    .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 407px;
+        margin-top: 85px;
+        margin-left: 17px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 406px;
+        margin-left: 17px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 16px;
+        margin-top: 85px;
+        margin-left: 17px;
+        width: 389px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 15px;
+        margin-left: 17px;
+        margin-top: 85px;
+        width: 392px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 15px;
+        margin-top: 85px;
+        width: 378px;
+        line-height: 33px;
+        margin-left: 17px;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 17px;
+        line-height: 33px;
+        width: 408px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 17px;
+        width: 340px;
+        line-height: 33px;
+    }
+
+    .Phosphine-p-links {
+        padding-top: 15px;
+        color: #14274e;
+        font-weight: 700;
+        margin-left: 17px;
+        padding-bottom: 40px;
+    }
+
+    .Phosphine-p-link {
+        color: #14274e;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        transition: 300ms ease-in-out;
+        margin-left: 17px;
+    }
+
+    .p-link-fix {
+        width: 448px;
+        line-height: 46px;
+    }
+
+    .Phosphoine-img {
+        width: 357px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+}
+
+@media  screen and (max-width : 520px) {
+    
+    .extra-p {
+        margin-left: 40px;
+    }
+
+}
+
+@media  screen and (max-width : 480px) {
+    
+    .p-link-fix {
+        width: 416px;
+        line-height: 46px;
+    }
+
+    .Phosphine-p-link {
+        color: #14274e;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        transition: 300ms ease-in-out;
+        margin-left: 17px;
+    }
+
+    .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 368px;
+        margin-top: 85px;
+        margin-left: 17px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 15px;
+        margin-top: 85px;
+        line-height: 33px;
+        width: 354px;
+        margin-left: 17px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 17px;
+        width: 317px;
+        line-height: 33px;
+    }
+
+.p-3-a{
+   
+        font-size: 15px;
+        margin-top: 85px;
+        margin-left: 17px;
+        width: 345px;
+        line-height: 33px;
+    
+}
+
+.p-4-a {
+    font-size: 15px;
+    margin-top: 85px;
+    margin-left: 17px;
+    width: 317px;
+    line-height: 33px;
+}
+
+.Phosphoine-p-4 {
+    font-size: 15px;
+    margin-left: 17px;
+    margin-top: 85px;
+    width: 356px;
+    line-height: 33px;
+}
+
+
+.Phosphoine-p-5 {
+    font-size: 15px;
+    margin-top: 85px;
+    width: 345px;
+    line-height: 33px;
+    margin-left: 17px;
+}
+
+.Phosphoine-p-6 {
+    font-size: 15px;
+    margin-top: 85px;
+    margin-left: 17px;
+    line-height: 33px;
+    width: 345px;
+}
+
+.Phosphoine-p-7 {
+    font-size: 15px;
+    margin-top: 85px;
+    margin-left: 17px;
+    width: 324px;
+    line-height: 33px;
+}
+
+
+
+}
+
+@media  screen and (max-width : 462px) {
+    
+    .extra-p {
+        margin-left: 37px;
+    }
+     
+}
+
+@media  screen and (max-width : 436px) {
+    .Phosphoine-img {
+        width: 340px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+    .Phosphine-head {
+        padding-bottom: 0px;
+        padding-top: 234px;
+        font-size: 35px;
+        width: 326px;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 0px;
+        line-height: 52px;
+        margin: auto;
+    }
+
+    .Phosphine-writer {
+        font-size: 14px;
+        color: white;
+        width: 229px;
+     
+         margin-left: 0px;
+        line-height: 26px;
+        padding-top: 21px;
+        text-align: center;
+        letter-spacing: 3px;
+        margin: auto;
+    }
+
+    
+
+    .Phosphoine-p-1 {
+        font-size: 15px;
+        width: 286px;
+        margin-left: 17px;
+        margin-top: 85px;
+        padding-top: 85px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 15px;
+        padding-top: 85px;
+        line-height: 33px;
+        width: 303px;
+
+        margin-left: 17px;
+        margin-top: 85px;
+    }
+
+    .p-3-a {
+        font-size: 15px;
+        padding-top: 85px;
+        margin-left: 17px;
+        width: 284px;
+        text-align: left;
+        line-height: 33px;
+    }
+
+    .p-4-a {
+        font-size: 15px;
+        padding-top: 85px;
+        margin-left: 0px;
+        width: 317px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 15px;
+        padding-top: 85px;
+        width: 293px;
+        margin-left: 17px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 15px;
+        margin-left: 17px;
+        padding-top: 5px;
+        width: 290px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 15px;
+        padding-top: 85px;
+        width: 273px;
+        line-height: 33px;
+        margin-left: 16px;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 15px;
+        padding-top: 85px;
+        margin-left: 16px;
+        line-height: 33px;
+        width: 289px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 15px;
+        padding-top: 85px;
+        margin-left: 17px;
+        width: 295px;
+        line-height: 33px;
+        
+    }
+
+    .Phosphine-image-title {
+        font-size: 17px;
+        width: 284px;
+        margin: auto;
+        font-weight: 600;
+        line-height: 30px;
+        color: #5a5b5f;
+        padding-top: 45px;
+    }
+}
+
+
+@media  screen and (max-width: 397px) {
+    .Phosphoine-img {
+        width: 316px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 17px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 309px;
+    }
+}
+
+@media  screen and (max-width : 362px) {
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 13px;
+        font-weight: 700;
+        margin-left: 17px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 288px;
+    }
+
+    .Phosphine-head {
+        padding-bottom: 0px;
+        padding-top: 234px;
+        font-size: 30px;
+        width: 286px;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 0px;
+        line-height: 42px;
+        margin: auto;
+    }
+
+    .Phosphoine-p-1 {
+        font-size: 14px;
+        width: 249px;
+        margin-top: 85px;
+        margin: auto;
+        text-align: center;
+        padding-top: 85px;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-2 {
+        font-size: 14px;
+        padding-top: 85px;
+        line-height: 33px;
+        width: 255px;
+        text-align: center;
+        margin-left: 0px;
+        margin: auto;
+    }
+
+    .Phosphoine-p-3 {
+        font-size: 14px;
+        padding-top: 85px;
+        margin-left: 0px;
+        width: 242px;
+        margin: auto;
+        text-align: center;
+        line-height: 33px;
+    }
+
+    .p-3-a {
+        font-size: 14px;
+        padding-top: 85px;
+        margin-left: 0px;
+        width: 235px;
+        margin: auto;
+        text-align: center;
+        line-height: 33px;
+    }
+
+    .p-4-a {
+        font-size: 14px;
+        padding-top: 85px;
+        margin-left: 0px;
+        width: 218px;
+        margin: auto;
+        text-align: center;
+        line-height: 33px;
+    }
+
+    .Phosphoine-img {
+        width: 293px;
+        box-shadow: 1px 2px 43px -5px rgb(0 0 0 / 52%);
+    }
+
+
+    .Phosphine-image-title {
+        font-size: 16px;
+        width: 233px;
+        margin: auto;
+        font-weight: 600;
+        line-height: 30px;
+        color: #5a5b5f;
+        padding-top: 45px;
+    }
+
+    .Phosphoine-p-4 {
+        font-size: 14px;
+        margin-left: 0px;
+        padding-top: 85px;
+        margin: auto;
+        width: 239px;
+        text-align: center;
+        line-height: 33px;
+    }
+
+    .Phosphoine-p-5 {
+        font-size: 14px;
+        padding-top: 85px;
+        width: 250px;
+        line-height: 33px;
+        margin-left: 0px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .Phosphoine-p-6 {
+        font-size: 14px;
+        padding-top: 85px;
+        margin-left: 0px;
+        line-height: 33px;
+        text-align: center;
+        margin: auto;
+        width: 248px;
+    }
+
+    .Phosphoine-p-7 {
+        font-size: 14px;
+        padding-top: 85px;
+        margin-left: 0px;
+        width: 256px;
+        margin: auto;
+        line-height: 33px;
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width : 327px) {
+    .Phosphine-reference-link {
+        display: block;
+        padding-bottom: 30px;
+        font-size: 13px;
+        font-weight: 700;
+        margin-left: 17px;
+        color: #14274e;
+        text-decoration: none;
+        transition: 400ms ease-in-out;
+        width: 244px;
+    }
+}
+
+
+.p-f-i{
+    transition: 500ms ease-in-out;
+}
+
+.p-f-i:hover{
+    
+    color: #E50168;
+   
+}
+
+.p-f-i:focus{
+   
+    color: #E50168;
+}
+
+@media  screen and (max-width : 545px) {
+    
+    .p-f-i:hover{
+    
+        color: #E50168;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+    .p-f-i:focus{
+        margin-left: 45px;
+        margin-right: 45px;
+        color: #E50168;
+    }
+    
+
+}
+
+
+@media  screen and (max-width : 487px) {
+    .p-f-i:hover{
+    
+        color: #E50168;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    .p-f-i:focus{
+        margin-left: 35px;
+        margin-right: 35px;
+        color: #E50168;
+    }
+    
+}
+
+
+@media  screen and (max-width : 372px) {
+    
+    .member-social-footer {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #14274e;
+    }
+
+    .member-social-footer:hover {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #E50168;
+    }
+
+    .member-social-footer:focus {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: none;
+        color: #E50168;
+    }
+
+}
+
+
+.last-url{
+    color: #9BA4B4;
+    transition: 500ms ease-in-out;
+    text-decoration: none;
+}
+
+.last-url:hover{
+    color: #14274e;
+    text-decoration: none;
+}
+
+.last-url:focus{
+    color: #14274e;
+    text-decoration: none;
+}

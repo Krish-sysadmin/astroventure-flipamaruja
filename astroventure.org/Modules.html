@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!--Meta section (start)-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Astroventure - Modules"/>
+    <meta property="og:description" content="If you’re wondering if there’s a pathway to approaching astrophysics a bit more formally, you’re at the right place! With tailored video links, books, pdf notes and different websites immerse yourself into Star formation, Galactic astrophysics, Cosmology and so on. Dive right into one of them! What are you waiting for?."/>
+    <meta property="og:image" content="moduleog.png"/>
+    <meta name="description" content="If you’re wondering if there’s a pathway to approaching astrophysics a bit more formally, you’re at the right place! With tailored video links, books, pdf notes and different websites immerse yourself into Star formation, Galactic astrophysics, Cosmology and so on. Dive right into one of them! What are you waiting for?.">
+    <meta name="keywords" content="Astrophysical, Astrophysics, Astroventure, astro-enthusiasts, roadmap, Astronomy, modules,">
+
+   <!--Meta section (end)-->
+     <title>Astroventure | Modules.</title>
+
+   <!--Style links section (start)--> 
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel = "icon" href ="fav.png" class="tab"> 
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="astro-articles.css">
+    <link rel="stylesheet" href="ayanna.css">  
+    <link rel="stylesheet" href="darkAstroModule.css">
+    <link rel="stylesheet" href="modules.css">
+
+   <!--Style links setion (end)-->
+
+</head>
+<body>
+
+
+<!--Articles nav (start)-->
+    
+<div class="articles-nav">
+   <a class="articles-nav-title" href="index.html">Astroventure</a>
+   <div class="custom-control custom-switch">
+      <input type="checkbox" id="darkSwitch" class="dark-toggle"/>
+      <label for="darkSwitch"><i class="fas fa-sun dark-icon"></i></label>
+    </div>
+</div>
+
+<!--Articles nav (end)-->
+
+<!--Articles head section (start)-->
+
+<div class="mod-dark-bg">
+   <div class="articles-head"> 
+      <div class="container">
+         <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                 <h1 class="articles-head-real mod-head-real" data-aos="zoom-in-up">Modules.</h1>
+                 <p class="mod-p">If you’re wondering if there’s a pathway to approaching astrophysics a bit more formally, you’re at the right place! With tailored video links, books, pdf notes and different websites immerse yourself into Star formation, Galactic astrophysics, Cosmology and so on. Dive right into one of them! What are you waiting for?</p>
+               </div>
+            </div>
+       </div>        
+   </div>
+</div>   
+
+
+
+<!--Articles head section (end)-->
+
+
+
+<!--modules list (start)-->
+
+<div class="mod-over">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="module-post" data-aos="fade-up">
+            <img src="milky-way-984050_1920.jpg" alt="nightsky image" class="module-post-images">
+            <h1 class="module-post-head">Let's Dive
+               into the Night Sky!</h1>
+            <p class="module-post-author">By Sayed Shafaat Mahmud</p>   
+            <div class="mod-dates-box">
+               <h1 class="mod-post-date">8/22/2021</h1>
+               <h1 class="mod-post-time">11:39 PM</h1>
+            </div>
+            <button class="mod-post-btn" onclick="redirect.nightModule()">Read More</button>
+          </div>
+       </div>
+       <div class="col-lg-4 col-md-4 col-sm-12">
+        
+            <div class="module-post" data-aos="fade-up">
+               <img src="planet-3013945_1280.jpg" alt="nightsky image" class="module-post-images">
+               <h1 class="module-post-head">Celestial Mechanics</h1>
+               <p class="module-post-author">By Sayed Shafaat Mahmud <br><id class="cnd-auth">& Ayanna Fulga</id></p>   
+               <div class="mod-dates-box">
+                  <h1 class="mod-post-date">8/22/2021</h1>
+                  <h1 class="mod-post-time">11:39 PM</h1>
+               </div>
+               <button class="mod-post-btn" onclick="redirect.celesModule()">Read More</button>
+             </div>
+      
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        
+            <div class="module-post" data-aos="fade-up">
+               <img src="hubble-telescope-1347645_1920.jpg" alt="nightsky image" class="module-post-images">
+               <h1 class="module-post-head">Telescopes and Detectors</h1>
+               <p class="module-post-author">By Ayanna Fulga</p>   
+               <div class="mod-dates-box">
+                  <h1 class="mod-post-date">8/22/2021</h1>
+                  <h1 class="mod-post-time">11:39 PM</h1>
+               </div>
+               <button class="mod-post-btn" onclick="redirect.telescopeModule()">Read More</button>
+             </div>
+       
+      </div>
+     </div>
+
+     <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+       <div class="module-post" data-aos="fade-up" id="next-mod">
+          <img src="cosmologyone.jpg" alt="nightsky image" class="module-post-images">
+          <h1 class="module-post-head">Cosmology</h1>
+          <p class="module-post-author">By Ayanna Fulga</p>   
+          <div class="mod-dates-box">
+             <h1 class="mod-post-date">10/12/2021</h1>
+             <h1 class="mod-post-time">8:00 PM</h1>
+          </div>
+          <button class="mod-post-btn" onclick="redirect.cosmology()">Read More</button>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+         <div class="module-post" data-aos="fade-up" id="next-mod">
+            <img src="sgimage.png" alt="nightsky image" class="module-post-images">
+            <h1 class="module-post-head">Classifying Supernovae</h1>
+            <p class="module-post-author">By Sayed Shafaat Mahmud</p>   
+            <div class="mod-dates-box">
+               <h1 class="mod-post-date">10/12/2021</h1>
+               <h1 class="mod-post-time">8:00 PM</h1>
+            </div>
+            <button class="mod-post-btn" onclick="redirect.Csupernovae()">Read More</button>
+         </div>
+       
+      </div>
+     </div>
+   </div>
+ </div>  
+
+
+
+
+
+<!--Articles list (end)-->
+
+
+<!--Team member section footer (start)-->
+
+  
+<div class="team-member-footer">
+   <div class="container">
+      <div class="row">
+       <div class="col-lg-6 col-md-6 col-sm-12">
+          <a href="index.html" class="f-link"><h2 class="team-member-footer-logo">Astroventure</h2></a>
+          <p class="team-footer-id">Copyright © 2021 Astroventure all rights reserved.</p>
+       </div>
+       <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="team-member-footer-social-icons">
+               <a href="https://www.instagram.com/theastroventure/" class="fab fa-instagram member-social-footer"><a>
+               <a href="https://www.facebook.com/AstroVenture-100754282305355" class="fab fa-facebook member-social-footer"></a>
+               <a href="https://www.linkedin.com/in/team-astroventure-ab316a217/" class="fab fa-linkedin-in member-social-footer"></a>
+          </div> 
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Team member section footer (end)-->
+
+  <!--Script section (start)-->
+
+  <script src="module.js"></script>
+  <script src="dark-mode-switch.min.js"></script>
+  <script src="redirect.js"></script>
+  <script src="aos.js"></script>
+  <script type="text/javascript">
+      AOS.init({duration: 2000,});
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!--Script section (end)-->
+
+
+
+</body>
+</html>
+    

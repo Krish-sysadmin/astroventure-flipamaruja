@@ -1,0 +1,147 @@
+body{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+
+}
+
+.movies-head-real {
+    text-align: center;
+    font-weight: 900;
+    color: #142753;
+    margin: auto;
+    width: 656px;
+    padding-top: 98px;
+    font-size: 103px;
+    padding-bottom: 196px;
+}
+
+.darkmode--activated .movies-head-real {
+    color: #892CDC;
+  }
+
+.movies-add{
+    padding-top: 200px;
+}
+
+
+@media  screen and (max-width : 724px) {
+    
+   
+    .movies-head-real {
+        text-align: center;
+        font-weight: 900;
+        color: #142753;
+        margin: auto;
+        width: 550px;
+        padding-top: 98px;
+        font-size: 87px;
+        padding-bottom: 196px;
+    }
+
+}
+
+@media  screen and (max-width : 605px) {
+    
+    .movies-head-real {
+        text-align: center;
+        font-weight: 900;
+        color: #142753;
+        margin: auto;
+        width: 487px;
+        padding-top: 98px;
+        font-size: 87px;
+        padding-bottom: 196px;
+    }
+
+}
+
+@media  screen and (max-width : 540px) {
+    .movies-head-real {
+        text-align: center;
+        font-weight: 900;
+        color: #142753;
+        line-height: 83px;
+        margin: auto;
+        width: 405px;
+        padding-top: 98px;
+        font-size: 72px;
+        padding-bottom: 196px;
+    }
+}
+
+@media  screen and (max-width : 449px) {
+    .movies-head-real {
+        text-align: center;
+        font-weight: 900;
+        color: #142753;
+        line-height: 76px;
+        margin: auto;
+        width: 338px;
+        padding-top: 98px;
+        font-size: 61px;
+        padding-bottom: 196px;
+    }
+}
+
+@media  screen and (max-width : 383px) {
+    .movies-head-real {
+        text-align: center;
+        font-weight: 900;
+        color: #142753;
+        line-height: 59px;
+        margin: auto;
+        width: 304px;
+        padding-top: 98px;
+        font-size: 55px;
+        padding-bottom: 196px;
+    }
+}
+
+@media  screen and (max-width : 351px) {
+    .movies-head-real {
+        text-align: center;
+        font-weight: 900;
+        color: #142753;
+        line-height: 59px;
+        margin: auto;
+        width: 271px;
+        padding-top: 98px;
+        font-size: 49px;
+        padding-bottom: 196px;
+    }
+}
+
+
+
+
+
+
+.movies-head{
+    padding-top: 130px;
+}
+
+
+@media screen and (max-width : 440px) {
+    .custom-switch {
+        width: 39px;
+        margin-top: -38px;
+        text-align: center;
+        margin-left: 62px;
+        transform: translateX(0px) translateY(6px);
+    }
+}
+
+
+@media  screen and (max-width : 330px) {
+    .custom-switch {
+        width: 39px;
+        margin-top: -38px;
+        text-align: center;
+        margin-left: 40px;
+        transform: translateX(0px) translateY(6px);
+    }
+}

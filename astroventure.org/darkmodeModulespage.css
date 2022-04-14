@@ -1,0 +1,21 @@
+@media  screen and (max-width : 450px) {
+    .custom-switch {
+        width: 39px;
+        margin-top: -38px;
+        text-align: center;
+        margin-left: 116px;
+        transform: translateX(-53px) translateY(6px);
+    }
+}
+
+@media  screen and (max-width : 361px) {
+    
+    .custom-switch {
+        width: 39px;
+        margin-top: -38px;
+        text-align: center;
+        margin-left: 116px;
+        transform: translateX(-72px) translateY(6px);
+    }
+
+}

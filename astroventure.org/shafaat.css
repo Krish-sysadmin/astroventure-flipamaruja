@@ -1,0 +1,101 @@
+/*body section (start) */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: #f1f6f9;
+}
+
+
+::-webkit-scrollbar{
+
+   width: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #E50168;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media  screen and (max-width : 623px) {
+    ::-webkit-scrollbar{
+
+        width: 0px;
+     
+     }
+     
+     
+     ::-webkit-scrollbar-thumb{
+         background-color: transparent;
+     }
+     
+}
+
+
+/* Body section (end) */
+
+
+/* Team member section (start) */
+
+
+
+@media  screen and (max-width : 640px) {
+    .shafaat-code-p {
+        text-align: center;
+        font-size: 16px;
+        width: 422px;
+        line-height: 33px;
+        margin: auto;
+        padding-top: 40px;
+        color: #394867;
+    }
+}
+
+
+@media  screen and (max-width : 510px) {
+    .shafaat-code-p {
+        text-align: center;
+        font-size: 16px;
+        width: 330px;
+        line-height: 33px;
+        margin: auto;
+        padding-top: 40px;
+        color: #394867;
+    }
+}
+
+
+@media  screen and (max-width :  390px) {
+    .shafaat-code-p {
+        text-align: center;
+        font-size: 15px;
+        width: 280px;
+        line-height: 33px;
+        margin: auto;
+        padding-top: 40px;
+        color: #394867;
+    }
+}
+
+@media  screen and (max-width : 328px) {
+    .team-member-bio {
+        text-align: center;
+        font-size: 15px;
+        width: 213px;
+        line-height: 33px;
+        margin: auto;
+        padding-top: 40px;
+        color: #394867;
+    }
+}
+
+/* Team member section (End) */
